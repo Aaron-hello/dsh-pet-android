@@ -1,0 +1,4655 @@
+{
+  "version": "1.6.0",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 502,
+      "sha256": "a0e9d693b2abcaf749fd4a35ed33489222f269ed225f455559e8d4b6c8435904"
+    },
+    {
+      "path": "DESIGN_REVIEW.md",
+      "bytes": 1790,
+      "sha256": "87c9bc849b44854ab46f5639e32d3063a5f68335033f3a7537acc763407aa7a6"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1069,
+      "sha256": "22757dc9c895b2729a2fc684d227cadfb54d5af3dd300029926839e8c4e269ce"
+    },
+    {
+      "path": "PRIVACY.md",
+      "bytes": 4627,
+      "sha256": "2f95bbec4936584735be1adcc34ac891efad31e1b6a687263965024bc208e09d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6319,
+      "sha256": "fb9d9ecf27dc71c5d24a52a9df0cb382d09f75874bc4071a0c082725150012e2"
+    },
+    {
+      "path": "README_ANDROID.md",
+      "bytes": 7941,
+      "sha256": "1b185ea32d95faf2d8324a9b077061fc353a12089377e7a88403728bc027a701"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 2160,
+      "sha256": "7923233b1fb2fd74f8fcaef4900cfd30cab526cd1714fe8396898f9669867ccd"
+    },
+    {
+      "path": "RELEASE_REVIEW.md",
+      "bytes": 4228,
+      "sha256": "3933028e2fa13e648817a61ffe054950a91fb84609aff1e470bede923c8e35d3"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 768,
+      "sha256": "b74b121063d4d1a3e70e5c02ba98a5fcf5b2ee7bc3f76f4bc6bdf29d76b7a4c4"
+    },
+    {
+      "path": "android/export-source.py",
+      "bytes": 7959,
+      "sha256": "cedbe23bfc388717c2b71b16395d212b4e699adacde1b5d6b0c87c7c3bb83448"
+    },
+    {
+      "path": "android/package-lock.json",
+      "bytes": 11442,
+      "sha256": "323469763c6ddc1d297104ff365baa9bfba2fa3924db3188e695d76125561676"
+    },
+    {
+      "path": "android/package.json",
+      "bytes": 185,
+      "sha256": "d2246d666f69fdf9d76bc34f98b2cea9d5380367d92d853b80797eb578439790"
+    },
+    {
+      "path": "android/pet/drag-follow.test.ts",
+      "bytes": 833,
+      "sha256": "64bb05e0699bd84c2b9bba0cbbcbfa06e009dabbb6bc5721b33e45650c7e72ec"
+    },
+    {
+      "path": "android/pet/drag-follow.ts",
+      "bytes": 515,
+      "sha256": "fd7f50716faafbdfd321cece5f1f2ca8140cd2d3c66489394c1fce960e6a9f8d"
+    },
+    {
+      "path": "android/pet/helpers.ts",
+      "bytes": 423,
+      "sha256": "cfb68b71edb0560b142f2ce33346e8aba868ff99b8abf20a9926f4b00a3f211b"
+    },
+    {
+      "path": "android/pet/mobile.css",
+      "bytes": 431,
+      "sha256": "f1eed43c65414c990ebaf82cf18448011526de796973c616cd9357a944f5b910"
+    },
+    {
+      "path": "android/pet/offline.js",
+      "bytes": 12999,
+      "sha256": "c8612d40ab902e2a79c770b8f1fcec75098f85260218dcfcc5b59bfc7b66339f"
+    },
+    {
+      "path": "android/pet/prelude.js",
+      "bytes": 1978,
+      "sha256": "8e4d206c97ce0e7a7b37ae572428e2cb128f10050ed9f7fa5985ed7446dae4ae"
+    },
+    {
+      "path": "android/prepare-assets.mjs",
+      "bytes": 6139,
+      "sha256": "04ee1bb65d82d9790eb510657afb5e3d9c0572471f6492f75fe968232a596818"
+    },
+    {
+      "path": "android/upstream-tree.json",
+      "bytes": 105421,
+      "sha256": "ddfd0102088e81e7b6866acb2b6418135a8d9a688b3da2e5e8400ac76a915f61"
+    },
+    {
+      "path": "android/verify-chat.mjs",
+      "bytes": 11317,
+      "sha256": "ce5ebf7dda01568aef6583ce1ebe4b1e33bc4570fffc6f6dfdd0ebad21201669"
+    },
+    {
+      "path": "android/verify-control.mjs",
+      "bytes": 9720,
+      "sha256": "8d7b18447ecbb92a9d2ce764d66434ed5d3cd29f83273c2bbdd823c6056edfbd"
+    },
+    {
+      "path": "android/verify-scene.mjs",
+      "bytes": 10527,
+      "sha256": "343cc7ad962273833da536e47232e6f5f516cda65a4841f14f1a4632b07522a3"
+    },
+    {
+      "path": "android/verify-todo.mjs",
+      "bytes": 7983,
+      "sha256": "9765c75119e4af94d0cd46b859817283a9e25b655c3b7ab7e7e46ed7896c664c"
+    },
+    {
+      "path": "app/.gitignore",
+      "bytes": 6,
+      "sha256": "5c3174b74edc6f2b9e0743594b8bd3c7f31e4f4405758cc9872b3fe1de1d28b4"
+    },
+    {
+      "path": "app/build.gradle.kts",
+      "bytes": 2787,
+      "sha256": "e8e86aa37cc90771b3eb9578035e3474710500850aa8fb850302129c16c7854f"
+    },
+    {
+      "path": "app/src/androidTest/java/com/dailytodo/mydeepseek/ExampleInstrumentedTest.kt",
+      "bytes": 675,
+      "sha256": "aff88c6f9f8ae9a7503323a0f7542673b41503d898a02493f7e65d6f3071ea54"
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "bytes": 3568,
+      "sha256": "4db6d363c8bef9e2c984155c1e8bff83c5cd21bcc474b377e3971e9451ea0d52"
+    },
+    {
+      "path": "app/src/main/assets/chat/app.js",
+      "bytes": 9714,
+      "sha256": "f0c04b26b97c73806fb19ed08691bd949d860a0c5bcd7371ffe0e457539f68c4"
+    },
+    {
+      "path": "app/src/main/assets/chat/index.html",
+      "bytes": 3335,
+      "sha256": "f88cb685db13256f9a4b5474015a1bf414ebd7edefb5a74500311fe11dbe5c58"
+    },
+    {
+      "path": "app/src/main/assets/chat/style.css",
+      "bytes": 7519,
+      "sha256": "a0081df216c9d0c29913faa7a77ce9117f9fb743838ad00763042d55f1593690"
+    },
+    {
+      "path": "app/src/main/assets/control/app.js",
+      "bytes": 10397,
+      "sha256": "0acec0628106947fde3542c37c015b6bcea53ff524805836d4f7e710f071cd87"
+    },
+    {
+      "path": "app/src/main/assets/control/hero.png",
+      "bytes": 93711,
+      "sha256": "475bcccf619fb4752b1d8a9b0f0d309f3e098eeb335b2f9e473f9d083fadfde1"
+    },
+    {
+      "path": "app/src/main/assets/control/index.html",
+      "bytes": 11451,
+      "sha256": "db6e26fd436f53e0dc25112c019225eccb00c3f061209006dab7b01b2b53ce2d"
+    },
+    {
+      "path": "app/src/main/assets/control/style.css",
+      "bytes": 20645,
+      "sha256": "dda7e39f911a427eea1a367c358050001174196864a3e3662266c6b025badb1f"
+    },
+    {
+      "path": "app/src/main/assets/todo/app.js",
+      "bytes": 10586,
+      "sha256": "b4ad0bae3406645f5a82eae579c6de920d9bab9dc9dd0b426bf7b6dc4462121d"
+    },
+    {
+      "path": "app/src/main/assets/todo/index.html",
+      "bytes": 5064,
+      "sha256": "ac2dc0746b3fb08e119ef6f3a94a57d5414cfa57c327e0674922130744baa232"
+    },
+    {
+      "path": "app/src/main/assets/todo/style.css",
+      "bytes": 8101,
+      "sha256": "6093eaff336e0b9c589c8f04eb26fa458f355ab00d949d777edfc132d7b73f11"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/AppNavigation.kt",
+      "bytes": 567,
+      "sha256": "c934bf0812bc0a38b5ea2def410d6385f3e6907bb10eca9303eaf7253795777b"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/ChatActivity.kt",
+      "bytes": 6632,
+      "sha256": "fd139e8c2dc527d42b198aa939ed030f136ce251b00007c8ea503eb25d9409a8"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/DeepSeekProtocol.kt",
+      "bytes": 5358,
+      "sha256": "53e4369da5ac2143067d9655e8cd7176afec8e865eb9c73b57395bb788ae112b"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/DeepSeekTransport.kt",
+      "bytes": 4219,
+      "sha256": "444cffd34bac37a98b0f5df81c0ad1d200da7b2764216f6503f15d14e768b100"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/MainActivity.kt",
+      "bytes": 33654,
+      "sha256": "834ca8fc03d354edd9db05469254f813c6489b8f3e5334a5d4fa8c6a08cb2835"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/MemoryRules.kt",
+      "bytes": 641,
+      "sha256": "228d0202f9a79f52a18962dc7241018ff4362ca6e69077e99609efb8b283fbd6"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/PendingValueWrite.kt",
+      "bytes": 696,
+      "sha256": "6a5eccdc8e7ec4b06f4650097a96514ca48d3d11ee1976a4af356ea97a3f69b9"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/PersonaDetails.kt",
+      "bytes": 3180,
+      "sha256": "d137cda30bf5c9632ac79e38706f248aedbc1820e4d6ef850dfad016b9923427"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/PersonaRules.kt",
+      "bytes": 396,
+      "sha256": "53247dec54896f3d9e9cadea02a0880f93c203cfbf49397c78e73fd29d0e63ec"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/PetApi.kt",
+      "bytes": 33758,
+      "sha256": "70fd4162eba2178add21f8e5477bc9d77ed4bb7993cea86ea9cc0f6e9f556630"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/PetChatWindow.kt",
+      "bytes": 10694,
+      "sha256": "47bfe733ca8868973f7528ae2d560480fe8317b2244e281b2dd8531ed909ed5b"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/PetCompanion.kt",
+      "bytes": 3359,
+      "sha256": "6b6ed4a5361bcc7f8750a573988426ac69ebf2f8487c0bc6ed18c6ad3b85d796"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/PetCompanionRules.kt",
+      "bytes": 1908,
+      "sha256": "14ea02c2a51d4b8565e79a3f400e0752a6d26096837bf96a04c0717ef216651f"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/PetFrame.kt",
+      "bytes": 1383,
+      "sha256": "519c26fde53307736414daab38588598ff23212b136f3c6746c91614ea68fc9c"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/PetMemories.kt",
+      "bytes": 12214,
+      "sha256": "269e0ec5fe2ab80888427db2ae0bb38a35a687f612705e545470aba3bcf3abb6"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/PetOverlayService.kt",
+      "bytes": 8453,
+      "sha256": "60485fa10abfa57880d72abee1fac122892d9b0ef730b559e241fbac1ecdd52f"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/PetPreviewActivity.kt",
+      "bytes": 1791,
+      "sha256": "bbdc233d5cd7dff58bfb6118d1768fb5a9fc0266ae883fd2ddce52adca95b3de"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/PetRuntime.kt",
+      "bytes": 819,
+      "sha256": "a076a8a1aa8198bf98a8bcaf092f1d0e12faa076ee73ccd8063633651420ac1b"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/PetScene.kt",
+      "bytes": 22809,
+      "sha256": "46661ce3b31cbec9c49cb443f9169b568e5dd7e85fee22bff4dab6af6523138b"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/PetSecureStore.kt",
+      "bytes": 5824,
+      "sha256": "e42406a647b1329e424bf5c9949ee0130219a71b5ecd8bc41deceb21f13ac378"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/PetTodos.kt",
+      "bytes": 5861,
+      "sha256": "b2be55743b08d5185782d66532d7235d954734588a745129c5cbcd604584c455"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/SecretEnvelope.kt",
+      "bytes": 1146,
+      "sha256": "7ff00b787c124eb8b1675814c4d06d15ef68bff06559167e919eb454c65909fb"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/TodoActivity.kt",
+      "bytes": 18902,
+      "sha256": "de9bb5154d892b77d6eaadcfcf447960f7630758c84a13909399fd33f6fbfe13"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/TodoAlarms.kt",
+      "bytes": 5075,
+      "sha256": "0355822347e554d669ec336c58fd831ee7d459660fe2afe7772c23a95d789a5d"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/TodoRules.kt",
+      "bytes": 5925,
+      "sha256": "e19576c5ac9166655ff78baf543586317f22ddb21b5e8dcb25c57e7f27b774ad"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/ui/theme/Color.kt",
+      "bytes": 288,
+      "sha256": "c9ee5181dba470ef65b610c96dc0b16d6dda757a714abf7f4bc9499a14cbeed3"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/ui/theme/Theme.kt",
+      "bytes": 1702,
+      "sha256": "8a8f910da8eb80871c2c9cebed08025e2d92279df31755bb05bc368481f2ccb9"
+    },
+    {
+      "path": "app/src/main/java/com/dailytodo/mydeepseek/ui/theme/Type.kt",
+      "bytes": 993,
+      "sha256": "f5c016b46daa9da923472639b0334966b0e44db6244b4a05c6434a2b62426b44"
+    },
+    {
+      "path": "app/src/main/keepRules/rules.keep",
+      "bytes": 418,
+      "sha256": "cd9f36ade2d8604e1b7cf24eff5b171f9c0816c0aa013ba7eb55be4fe2e1dac7"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_background.xml",
+      "bytes": 5606,
+      "sha256": "ed423c73a6f40a4d2909f0901e60527b3a807cd59e1b5593bcaae1808b1c6321"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "bytes": 1702,
+      "sha256": "01d1a6a6c1234eb7fe270d097eb283d72b9c95ae5118886f1b6573aad280f1f7"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_pet_notification.xml",
+      "bytes": 375,
+      "sha256": "8d1ba577e47e3d7bd11ab4b80e643d330ec2c92706c0d416cdcf02f22298e5f0"
+    },
+    {
+      "path": "app/src/main/res/drawable/pet_icon_foreground.xml",
+      "bytes": 174,
+      "sha256": "42023ece0837bc3c841650b7fea09b336b8ccbd5015a075ef688046b47cf2e5f"
+    },
+    {
+      "path": "app/src/main/res/drawable/pet_logo.png",
+      "bytes": 25058,
+      "sha256": "fc73bbee8bca13b40ede3ec42af1a827f705ab6dd76b7eaaad489650e0848560"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi/ic_launcher.xml",
+      "bytes": 326,
+      "sha256": "5a011c85442287b34dc717a96d20964cc1e796780ba3a939151dbe1e07ffb2d1"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi/ic_launcher_round.xml",
+      "bytes": 326,
+      "sha256": "5a011c85442287b34dc717a96d20964cc1e796780ba3a939151dbe1e07ffb2d1"
+    },
+    {
+      "path": "app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "bytes": 1404,
+      "sha256": "dd00996198640ed28fbc09cdcd7a3807cf8707f3eb255b659634da3ca6a6ff01"
+    },
+    {
+      "path": "app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "bytes": 2898,
+      "sha256": "1ed73f5341a69d3b41c7e02e126803f50cc8c3284adf4bbb737f0c93577aef07"
+    },
+    {
+      "path": "app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "bytes": 982,
+      "sha256": "846219e6f72fe9a6c104ca8919cbee36a101e7d2ff8da9da67b689a5888f060d"
+    },
+    {
+      "path": "app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "bytes": 1772,
+      "sha256": "4e2c58b91de01130e6479e00cbbaaf6e77cd961dd2c8e303cf13cd077fa92632"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "bytes": 1900,
+      "sha256": "398340dad816fc9a6338cb151a8cf1e45b926f9bfb70628b24c4bd2523cc94d4"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "bytes": 3918,
+      "sha256": "91b490aef86574901137f0a252272e1f1add99c1ad709e0696ed68929b88d261"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "bytes": 2884,
+      "sha256": "58ae87fa0c5b5d1562d27fd648d2c061553fe20e3ed570bde588162d01ea7a27"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "bytes": 5914,
+      "sha256": "3009fad079f5772f30ecd767f98924367fbe0f81c30048d672d4fda2d5ca7d12"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "bytes": 3844,
+      "sha256": "f98fef5bc3bfe5b65692c40ad1cbae2bec4faf9f1b249c397626740db71b62d8"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "bytes": 7778,
+      "sha256": "5faf033745c8c882c43bb1b372d4e4a5890caec63d9892a2e756c954108b85dc"
+    },
+    {
+      "path": "app/src/main/res/values/colors.xml",
+      "bytes": 378,
+      "sha256": "b5626527d503417f0d8e5b1e08f338de7b31173bf0e122815f03e64932adbd88"
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "bytes": 77,
+      "sha256": "db58b36b6b995be71a67cc1bc91fa3f692b816aa61db01535d3fbe2c3380af30"
+    },
+    {
+      "path": "app/src/main/res/values/themes.xml",
+      "bytes": 152,
+      "sha256": "57fd9475f25dee088de556f2c5f4fdea724e73779f146d02efa2862a7748f895"
+    },
+    {
+      "path": "app/src/main/res/xml/backup_rules.xml",
+      "bytes": 478,
+      "sha256": "6cf1a27e6807b1d24e41d3fbe7ddc1bfe1f42226027964f6eaf477d71b43b283"
+    },
+    {
+      "path": "app/src/main/res/xml/data_extraction_rules.xml",
+      "bytes": 551,
+      "sha256": "cb1fc47ab4a984530ed60e0e6ee638929c3038290e7e7e0b4b03a3a30fbe7381"
+    },
+    {
+      "path": "app/src/test/java/com/dailytodo/mydeepseek/ClockIntentRulesTest.kt",
+      "bytes": 876,
+      "sha256": "2995cb627fa8ea328e0004478fcdcd84c64b25eecaace52669e056cadc80ece5"
+    },
+    {
+      "path": "app/src/test/java/com/dailytodo/mydeepseek/DeepSeekProtocolTest.kt",
+      "bytes": 7791,
+      "sha256": "a5b5b1bec8d5178e5f32465d6a6ef0f04b77d4b9d4fe8dc930bbfa0ee247db6d"
+    },
+    {
+      "path": "app/src/test/java/com/dailytodo/mydeepseek/ExampleUnitTest.kt",
+      "bytes": 348,
+      "sha256": "0e276cbd99f65157040f73067571939d55ab7abdfd4b967c56277c2bd7cba631"
+    },
+    {
+      "path": "app/src/test/java/com/dailytodo/mydeepseek/MemoryRulesTest.kt",
+      "bytes": 1246,
+      "sha256": "3a6bac59711cdd841222860f10d54ed65c447d5d30a16c8aa1928270f5124816"
+    },
+    {
+      "path": "app/src/test/java/com/dailytodo/mydeepseek/PendingValueWriteTest.kt",
+      "bytes": 1438,
+      "sha256": "713db637510d5ea89c1c418f692237d18d401383b9ec6b6e5e0de0e24d855e7b"
+    },
+    {
+      "path": "app/src/test/java/com/dailytodo/mydeepseek/PersonaDetailsTest.kt",
+      "bytes": 1707,
+      "sha256": "89a52ef17ed6e87273584a079af55b660cb64ef7cbaa4e9729c9a69c25c58c73"
+    },
+    {
+      "path": "app/src/test/java/com/dailytodo/mydeepseek/PersonaRulesTest.kt",
+      "bytes": 752,
+      "sha256": "9b2b975a6dc844f516f25f5bfb1ee89413f2a798f2b4617dc8c5eac0e3451492"
+    },
+    {
+      "path": "app/src/test/java/com/dailytodo/mydeepseek/PetCompanionRulesTest.kt",
+      "bytes": 1776,
+      "sha256": "68b06af9d60dc10af87634ecd76a9f9193bd162fa6b097bda2e3b252fedcdae0"
+    },
+    {
+      "path": "app/src/test/java/com/dailytodo/mydeepseek/PetFrameTest.kt",
+      "bytes": 1278,
+      "sha256": "ffbefb1f017f145fd86457ceadc07c642d4802f82e57f9c00fb4b6c3af353381"
+    },
+    {
+      "path": "app/src/test/java/com/dailytodo/mydeepseek/TodoRulesTest.kt",
+      "bytes": 4522,
+      "sha256": "afa56c88bebf44256207fa649f89d4008c45771d42b9ccc04405907a42dc14b3"
+    },
+    {
+      "path": "build.gradle.kts",
+      "bytes": 218,
+      "sha256": "be7dbfa1841b18b020f744e203b995d3dac5709c2a6b8e310fbcfaed0364919a"
+    },
+    {
+      "path": "docs/images/chat-preview.png",
+      "bytes": 36328,
+      "sha256": "77ca696ec125c0e39aabdb38558557ffc18fc6fb2cc343639941214a799a0c11"
+    },
+    {
+      "path": "docs/images/control-preview.png",
+      "bytes": 186107,
+      "sha256": "ace11ed6c50095efe413272f8864e929a6355f9f9d9706590d865716b18e3939"
+    },
+    {
+      "path": "docs/images/settings-preview.png",
+      "bytes": 86853,
+      "sha256": "efa7a011c4c159186b798c23c09126ad958cb38b0ae860099ec62b6002f3abaf"
+    },
+    {
+      "path": "docs/images/todo-preview.png",
+      "bytes": 61156,
+      "sha256": "3b7fe00458c6192f5357444ee55f1f9bc0ee0759b6cb524572bf8cf8a0ecae22"
+    },
+    {
+      "path": "dshgit/.gitattributes",
+      "bytes": 201,
+      "sha256": "e7bb374f04664e2f57a5e8d1a1a8b6121b513b34402d650424ff34310c4a546b"
+    },
+    {
+      "path": "dshgit/.github/workflows/hevc-alpha.yml",
+      "bytes": 6483,
+      "sha256": "6ddaf61d9fa327c0e37b132dafea797203c91cc89a5f8d513330d94ff9f969de"
+    },
+    {
+      "path": "dshgit/.github/workflows/release-app.yml",
+      "bytes": 6768,
+      "sha256": "6159546515606c270a5426f69b154af962c81af697ad5f27dff39c5311fdaf0d"
+    },
+    {
+      "path": "dshgit/.gitignore",
+      "bytes": 1551,
+      "sha256": "b5e86c6c6bb1820d41ebe335f475faef2acb5d49548a5ada3737730810baef7c"
+    },
+    {
+      "path": "dshgit/API.md",
+      "bytes": 18568,
+      "sha256": "26b61490752cb3e8dd80b6dcabc6e0fcd1e5944cbb99501a7f69ed5f190ab32e"
+    },
+    {
+      "path": "dshgit/CONFIG.md",
+      "bytes": 11820,
+      "sha256": "7ca4b0e11d5348354c50979b5584950b40230d566e5b3ae0fcdab71079a2ff77"
+    },
+    {
+      "path": "dshgit/CORDIS-API.md",
+      "bytes": 2840,
+      "sha256": "fe68ae900364ef0c96a647287d48b01dd909b161d90b6f695f8829a41ce20419"
+    },
+    {
+      "path": "dshgit/CORDIS.md",
+      "bytes": 13745,
+      "sha256": "becd628c7dbb590b6052038e1a2a06a77d6d7fcd3c1e32fada1357fd9f432a2f"
+    },
+    {
+      "path": "dshgit/FEATURES.md",
+      "bytes": 7591,
+      "sha256": "700b6b11d38e2f6536077725c48d7d419ccae897bc07f8f1d2294f527f4c3c7d"
+    },
+    {
+      "path": "dshgit/INSTALL.md",
+      "bytes": 7758,
+      "sha256": "e5747599b637347d8b8945f1b865bcac26cd9a133eb0d0cb3a56cead29e7af1f"
+    },
+    {
+      "path": "dshgit/LICENSE",
+      "bytes": 1069,
+      "sha256": "22757dc9c895b2729a2fc684d227cadfb54d5af3dd300029926839e8c4e269ce"
+    },
+    {
+      "path": "dshgit/MAKE-YOUR-OWN-PET.md",
+      "bytes": 5434,
+      "sha256": "45906c67574888abf258ad134a3fd8f99cb614ec377bac6e6e5f840b27b9efd8"
+    },
+    {
+      "path": "dshgit/README.md",
+      "bytes": 28142,
+      "sha256": "0e89ccf8d52a4502cb9e9af18f0b729a16fd2f11622824febf279e6cd8c0cde0"
+    },
+    {
+      "path": "dshgit/dsh-pet/.prettierignore",
+      "bytes": 233,
+      "sha256": "bd74c5da89deda70e7ef1ba38561cbaa4bbf37b2f4c8924581b54887a9c284b0"
+    },
+    {
+      "path": "dshgit/dsh-pet/.prettierrc.json",
+      "bytes": 73,
+      "sha256": "decc73e46b3bb62e830c308b1c0ae771755d6c993505daff6785e9d3b806a48c"
+    },
+    {
+      "path": "dshgit/dsh-pet/LICENSE",
+      "bytes": 1069,
+      "sha256": "22757dc9c895b2729a2fc684d227cadfb54d5af3dd300029926839e8c4e269ce"
+    },
+    {
+      "path": "dshgit/dsh-pet/README.md",
+      "bytes": 289,
+      "sha256": "57c5e1c42d3e156d3b878bcc7dad6de9c833a1621e2764911c86da9b88a4a037"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/config.jsonc",
+      "bytes": 35468,
+      "sha256": "cdd1b4758a5c5d456a358b277c5c69eb50de58d9d3faa38738c1cd03048f2f7f"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/fonts/上首软糖体.ttf",
+      "bytes": 4083908,
+      "sha256": "5f5099a065b5eb3ba55e9bd293af7707fdbd7858bf99d9381b7c6319445c2e62"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/logo.png",
+      "bytes": 25058,
+      "sha256": "fc73bbee8bca13b40ede3ec42af1a827f705ab6dd76b7eaaad489650e0848560"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/memes/Ciallo.png",
+      "bytes": 160895,
+      "sha256": "8cc22d31effa951f6a9e6cbf26ec98c762b86f8569fa81d58e0b10c99db112b3"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/memes/token给妈妈保管.png",
+      "bytes": 163283,
+      "sha256": "1ff2f370be90545ebcb84e718353070d078ec78d1cbb204785f3d7d24d86327d"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/memes/假如给我三天多模态.png",
+      "bytes": 220102,
+      "sha256": "8d25880a3f2c546dc4fb57e96954b16cdc254a0faf8945411d9af8f0025b19e7"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/memes/先养着吧.png",
+      "bytes": 166797,
+      "sha256": "74d5ec30a583b9126af1246d41de5d5b23a20c45dc4464e64cb1fa090d869f05"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/memes/厉害了我的鲸.png",
+      "bytes": 180872,
+      "sha256": "30617cca18b9f3be4045dd68ba0c98600c319b68ea755ee7008d8959ff28347e"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/memes/压力一只大肥鱼.png",
+      "bytes": 197054,
+      "sha256": "748d4c2664c6dc40380e883f9ec713a7c2a4fb410401d639111ae3cdbed15819"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/memes/可爱.png",
+      "bytes": 166125,
+      "sha256": "4ac8a61a368d9ee43e58ca5f16db73dd9124ebb7d8ca2fd0486f2f969789dae5"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/memes/吃白饭的大肥鱼.png",
+      "bytes": 242557,
+      "sha256": "2d3a5f07684cee0da30a2b5717dd9a1f226da21b98ca1900097617e5de374428"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/memes/吃饱饱摸肚子.png",
+      "bytes": 145500,
+      "sha256": "128afd60aef0c610261271806beb6df2dedd33f159d3cc65676a2f6fed613585"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/memes/哦鲸鲸.png",
+      "bytes": 107978,
+      "sha256": "96d954bd3f9d60e77273643a96b6c2a5c4680ed4d6a4b3f1fe087189cd8fdd8a"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/memes/哪来的电脑病毒.png",
+      "bytes": 130669,
+      "sha256": "aea1b932b1bdd7d2c35e9fdd2a72ed944d42ad1dfb2608fc600924511e11bea0"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/memes/大师这个区是什么意思.png",
+      "bytes": 179969,
+      "sha256": "51f1d36d7b78c2726df8a26d20f34447ecd1280232bd285ce2c985ebd5e87723"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/memes/大烧货.png",
+      "bytes": 127882,
+      "sha256": "9e6f7147e961ab45b7271dcae0b1d10e67bc76df62449f2165aab7d0d2fe3249"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/memes/大的药来了.png",
+      "bytes": 212012,
+      "sha256": "ae314fdb1f0c6904bc286d6436750f2a04981e74437b9a234eff0f627a904b48"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/memes/大的要来啦.png",
+      "bytes": 162265,
+      "sha256": "253ae478c398ff3238170547033e7b477e2e5eae2400221bbed5ac2064ef1d80"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/memes/完蛋了把黄油删了.png",
+      "bytes": 170812,
+      "sha256": "bbd70ca8b0e7301f5bb6a326109ab86560a154782bce0769b28de29a4e79dbbf"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/memes/就一碗.png",
+      "bytes": 189025,
+      "sha256": "f01520b68b5526814adb9ee3d10e87f5f0ab76c9cea8159c28c09497194340ce"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/memes/就骚了怎么滴吧.png",
+      "bytes": 173093,
+      "sha256": "8edbcd5583971bc448c6a19f65d1ef3b47c565e039806ea9bd27e5bcdc540ed3"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/memes/我不更新你们用什么.png",
+      "bytes": 163758,
+      "sha256": "a71b82c49a5aa30e6026af60ac912171e28200ea961df71784497c59df76e277"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/memes/死掉了.png",
+      "bytes": 176876,
+      "sha256": "b042ac22e84ba1a1ffffd7ec246b53d40d1db3dc4c19d3443d63f243af14b25b"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/memes/深度睡眠.png",
+      "bytes": 133276,
+      "sha256": "c250e326c62c270cd04efc6f61013dff65b16f5be5d5d06cc1751a59443c155d"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/memes/电死你.png",
+      "bytes": 273358,
+      "sha256": "b0edc4eccf8f93acb8a2d885030994667431373674a3f81c755020ad5c7b5f22"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/memes/要不直接骂他.png",
+      "bytes": 201577,
+      "sha256": "4bb9aff0cd35b1f2a2cec1c09f285263524498dda5bac6b64ed006444996cee4"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/memes/誓死践行开源精神.png",
+      "bytes": 161668,
+      "sha256": "96d02fcef0801d2fc04d2c9d8c336b053842f3e949d81ebf97bf438741ced840"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/memes/除了调情没啥用.png",
+      "bytes": 172423,
+      "sha256": "a42585f22cf470ecaea1c465170ff1bee4eeb45a7ed92331b78533cb8b768a48"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/memes/鱼片有资源吗.png",
+      "bytes": 214868,
+      "sha256": "414a57b1fa5d73111612ead35d596adb01eb284f8ab44038a252a65a209dbced"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/memes/黎曼猜想没证明喵.png",
+      "bytes": 259701,
+      "sha256": "651c398bb997354ef027f71d593099bbed712dbc7f9c3fc4607a1173edd3b6b9"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/pic/cursor-grab.png",
+      "bytes": 303,
+      "sha256": "440fc673beedd7450c913741f09ad874e5daf902d5b067775f8a8a72c2783a8c"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/pic/cursor-grabbing.png",
+      "bytes": 276,
+      "sha256": "77465d8055cf8f5ee18a1fd7fd173118fe82d33a63bc4a3e0efd7e7e25dbd3ef"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/pic/notify-approval.png",
+      "bytes": 42815,
+      "sha256": "02cbcc01865d696a6ee0917b8db0057bba11c0761e066874f9932f5980637f24"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/pic/notify-done.png",
+      "bytes": 43283,
+      "sha256": "72a00d121871a0531cf55ce05639f49ef5d08c979be444bd32d1c1519c2d3b13"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/pic/notify-error.png",
+      "bytes": 45840,
+      "sha256": "193eca2e34140ab1d6fb3b7736cade720d7599762e3cee3cdd817aedd3ee1074"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/pic/notify-question.png",
+      "bytes": 46758,
+      "sha256": "c0e0f92e70a42d40fc5e8f8089954e93fbc68df19fd394a68d16de295d099775"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/pic/notify-test.png",
+      "bytes": 40188,
+      "sha256": "8677e74c67b460ee015d689ac2f94ca9075608998fa2d57f6d83ef5db7ebcad4"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/pic/notify-truncated.png",
+      "bytes": 44939,
+      "sha256": "4bb6cf8d920ab88230441f085b8979d5a49e7afb24afc18fcedf1c8550afe490"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/sound/click-duck.wav",
+      "bytes": 30514,
+      "sha256": "f1dafe05dfaa696b190e127800c48513e192d3efb521c246d1eaf86a4589b617"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/三球抛接.webm",
+      "bytes": 549316,
+      "sha256": "a64c08a4b7e5c3549616faf9dcd418e17f156b4b72d906646e4d57067df70d23"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/下五子棋.webm",
+      "bytes": 514704,
+      "sha256": "0802b6b808f44846b3d194a857fb0ffd38bdea2d7cdb91c9e5e6f311e44f1953"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/东张西望.webm",
+      "bytes": 427005,
+      "sha256": "a20ed02ccc5e72075a3ca83fabb57d9aac5ded699f52d00ec6de72069799fcd5"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/中秋赏月吃月饼.webm",
+      "bytes": 512341,
+      "sha256": "3f64003262d3f129470721495695ecd231795d859693a748914c02c6e3883a3a"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/优雅女仆舞.webm",
+      "bytes": 578915,
+      "sha256": "74209c4c668545ab1e2366e0d1c0709b7bea0312eeba7e89b553d5b977bfe649"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/余额-分文不剩.webm",
+      "bytes": 490318,
+      "sha256": "b232349bdbd962bad7f3a15cfce539c6fadadfd0a286b7f03b03e59cf7aca7a8"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/余额-数金皱眉.webm",
+      "bytes": 319065,
+      "sha256": "94a7e0ee8e1012aadec33492301c893c2d1c5df7e36049dbada8c4a264bf1810"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/余额-袋空如洗.webm",
+      "bytes": 383104,
+      "sha256": "3db780bbc96bb362ced36078fecacfb63b9d292c06b533cfb61797adb553a7f8"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/余额-金袋叮当.webm",
+      "bytes": 530955,
+      "sha256": "6fda0c4ae013cf7906afa1cb846717d097db576343dab11006f14ca5c7a9a34f"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/余额-钱袋如常.webm",
+      "bytes": 387407,
+      "sha256": "f6cb9aa1c829fcbc62478dbddd0e0fcd7beb47433cea751d18b81ccccbec95d3"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/余额-钱袋满溢.webm",
+      "bytes": 622258,
+      "sha256": "dddd6ffc4e763b77360e49c0ccee0987a43c3d253a23e3133c334aabb598b362"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/偷吃零食被抓住.webm",
+      "bytes": 432201,
+      "sha256": "c3b783351ad38fdd931e80b188ecb12d273f21e4794aed2c41f267bdb75ff897"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/写代码.webm",
+      "bytes": 383960,
+      "sha256": "0441287737cdbb993ce90dfa74c67ea4ea3549d8c8ea98946604668464589ed7"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/写福字.webm",
+      "bytes": 500314,
+      "sha256": "7841a47a6997bb7c90d81671d524c44b1afc87ca2e8fceb17d06d99003a67181"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/凭空生花.webm",
+      "bytes": 620252,
+      "sha256": "d1c336bc54c57a282bec180859c7b7b58912b70b5bca7b2f49495cd30cc7d5d6"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/动物环绕.webm",
+      "bytes": 981435,
+      "sha256": "814d41e7d619f9a61f38e5494a0cfd703f8bcfd829a14fa921e1c59acf3ce872"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/原地专心玩魔方.webm",
+      "bytes": 442948,
+      "sha256": "ad54da175ba86b19a84b73b3169fb418b2df016560bb274283f200aca351e712"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/原地小憩沉眠.webm",
+      "bytes": 433769,
+      "sha256": "31d4a6b36a29b2a4fe097384173d3bbeb3fa2f40f526b13191791456bf7507a1"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/原地左转奔跑.webm",
+      "bytes": 614526,
+      "sha256": "79882aedd7b77caaacce1a34dece68e2f001a3dbfa5f9d049c1ce2fc04518d52"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/原地敲击桌面互动.webm",
+      "bytes": 403033,
+      "sha256": "a40f481e89abcc726c89f30b01d085ca8c17a090e71facdd5e7f747e771093eb"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/原地漂浮踏步.webm",
+      "bytes": 591446,
+      "sha256": "7dee1c14672f1f99bebe5e6f1a52d6664b851ed95f9958ac6c12b753a5e5cc81"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/原地跳跃抓碎头顶物品.webm",
+      "bytes": 619282,
+      "sha256": "ccb906c677c7b739eb0dbf5307160e66583562c2a6caec72a9d3d14a202fcccd"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/原地蹲下玩玩具汽车.webm",
+      "bytes": 505114,
+      "sha256": "3ec9978ce3663d9bc4bfe5f5223f0a4e3d9ea6fcd0a6acdbaa802e0cfba36bf2"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/原地重力下蹲压缩.webm",
+      "bytes": 215047,
+      "sha256": "1c8972478a7f347818165db62b468f1624ec11d0862f38aec3078e3870831d24"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/变鸽子.webm",
+      "bytes": 509462,
+      "sha256": "796eba8ebe705e9339035e533e4f913fb8b9810432dcd6e7ae4fc1602e9ce3cf"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/可爱宅舞.webm",
+      "bytes": 576307,
+      "sha256": "4f737e44ea67c20368bdce474b951902c87c37991fb0750da8ed7794df6ec55c"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/吃Token.webm",
+      "bytes": 574754,
+      "sha256": "d46ef798fb189cd7652f63d03a35e6f314e5a598b4a65f76202ec95852eb719c"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/吃冰淇淋融化.webm",
+      "bytes": 509816,
+      "sha256": "17d73682926d6ce4203ad12d9049527e604d448bcc5c82ac5b12950b4ceb0447"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/吃午餐.webm",
+      "bytes": 495122,
+      "sha256": "e48a70e61d93195c611c2d4041be32a26a114f78c835ff6b2345459ae39a90ce"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/吃大闸蟹.webm",
+      "bytes": 545299,
+      "sha256": "fbd0f445c15fda1f827e6eb485270ddf9025ac29b3edcac28a5eff7d9aa80f46"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/吃年糕.webm",
+      "bytes": 451257,
+      "sha256": "ba0c86988687801a5b19d055d728bb182c8a95a0bdd7071dea16b83c1162135c"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/吃早餐.webm",
+      "bytes": 441484,
+      "sha256": "893b61587aeda8ca146e32b596b00903461aab04684a146d84b31965968d60e4"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/吃晚餐.webm",
+      "bytes": 741965,
+      "sha256": "8902602fb012c29d33392822ab534ed119a136610f6bc2e8c0c51d60afec673a"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/吃汤圆.webm",
+      "bytes": 437152,
+      "sha256": "53a0f93612bb59c7279010f993a1101b033fc01df1998dd9874d8aea175afa6f"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/吃白饭.webm",
+      "bytes": 459590,
+      "sha256": "b620413d6fa303a0ed9168dc71453c3bddc10141a0b7edeff87dc2e6e054d502"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/吃粽子.webm",
+      "bytes": 446268,
+      "sha256": "f3af3217674427fdc5609bf50b170f69669c84cf229cd7b44261c00da7876ade"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/吃糖葫芦.webm",
+      "bytes": 469809,
+      "sha256": "6900468dc166bfb90e1cfb73de9b41a08c62513483ce1300658340cf942be3cd"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/吃腊八粥.webm",
+      "bytes": 460665,
+      "sha256": "f821527812875262cc0dda50fe023c603fc89ec566172777c6bff4fa45943011"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/吃西瓜.webm",
+      "bytes": 482918,
+      "sha256": "0dd992fb7fb51d707d6589cb813a450437a2bd54046709f424a73353e2d7f78d"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/吃重阳糕.webm",
+      "bytes": 468951,
+      "sha256": "d2b6b466fcb1ee689ae130680bf38311e9988d995879ca3b5b1d9aa0b5438058"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/吃长寿面.webm",
+      "bytes": 489038,
+      "sha256": "2881e1cd4ca31fd56ca578ce2ee73d21222f0006f237c865d9b2dc1ebc436edd"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/吃青团.webm",
+      "bytes": 377524,
+      "sha256": "0d99393dd64ddf0b1ec4ab4cf392c86092ab5edf58d12f5b72e325035da23606"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/吃饺子.webm",
+      "bytes": 554828,
+      "sha256": "a607391c206cb2a1a977d72f318a6b5bfe95aee4da9b11c9de8724bd9981cc06"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/吹气球.webm",
+      "bytes": 751040,
+      "sha256": "3258f91b2000d949ba38f34c1f161b0d5fa148ecffb5a95eb8a3e10b5df7fc87"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/吹笛子.webm",
+      "bytes": 768350,
+      "sha256": "9c8b754a3256778cddd88fbb073b649d5b1d2e5f96e70231bc2c3bee06fa7c78"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/哈欠连天.webm",
+      "bytes": 424352,
+      "sha256": "2b23372e1ff2bc2f9078c09740708c960d4ea021f9fc3cca294d9df11e393ec8"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/堆雪人.webm",
+      "bytes": 519196,
+      "sha256": "478bdc31cc60e55e3efa139b81c7d8680a8cf83aca2304495e6da50a20a09cf5"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/大口吃零食.webm",
+      "bytes": 806998,
+      "sha256": "fdacb534a828b0c669f22a54e8da9bb9b5d731e0132dd5ea946f7badc9229a39"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/女仆屈膝礼仪.webm",
+      "bytes": 365712,
+      "sha256": "6536fb519ba73bbc338d30cf7286b14ffde1278b6d469c64573536dc0f896918"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/小幅度原地360度旋转展示.webm",
+      "bytes": 585715,
+      "sha256": "9f1a927f63c73e3c35ee5f4d2eb58f4a46ac7eca2af69388f320d10cdef8d29c"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/小提琴演奏.webm",
+      "bytes": 605350,
+      "sha256": "03816be0fcd499b63ed667e8b87c234094e64c59f1cd222455cf6a27ac832d1c"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/工作状态-原地踱步张望.webm",
+      "bytes": 471725,
+      "sha256": "a56c17ef901fa531324a46a04def2381f65922d319ec83dadde34d2a4669e411"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/工作状态-垂头叹气冒汗.webm",
+      "bytes": 198937,
+      "sha256": "ab00c844e62221905574b4c070e0d7b6fa14fb2afa1064c27a160f10e25f7196"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/工作状态-忙碌点按.webm",
+      "bytes": 475613,
+      "sha256": "b5d702e0c04adb7b255ac702001c24da36c8bf95efc891f693f4976986ab2435"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/工作状态-思考冒泡.webm",
+      "bytes": 408849,
+      "sha256": "b4a36cfa28ea5d7089e362a01972c6e880297c6dcd0d39f1994efd889a3c1be5"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/工作状态-清点归档.webm",
+      "bytes": 362510,
+      "sha256": "8c84f58f3a9e7b912e1cbfd89f77eb3652053fc9b2844295c8440cb636305d3b"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/工作状态-雀跃庆祝.webm",
+      "bytes": 488024,
+      "sha256": "3ff681051a0bb4f152d7535d64b7f3194c30298bf56d41e521216a278f135d3e"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/待机呼吸休闲.webm",
+      "bytes": 441437,
+      "sha256": "deb965d05a85dacf5ff4a20faa757846f0d11679598c3ec578a5571487660395"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/悠闲哼歌.webm",
+      "bytes": 584008,
+      "sha256": "358905afc2c81a9ed478bcf121a8f2f19276766b1d382d0067456bd57d1d7dbb"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/扑克魔术.webm",
+      "bytes": 461997,
+      "sha256": "1d44a7624fb027e5f615c747014ab040ddc497f6bdbcb67194a23a53a5dba78c"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/打瞌睡被惊醒.webm",
+      "bytes": 454028,
+      "sha256": "7e10c87cfcbd63b20b5a3787be71b0500381d54ea04a5ac0e9d99f59ed49a6d7"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/抽陀螺.webm",
+      "bytes": 521068,
+      "sha256": "693689d7b4d02ae8cda53f8d580de5087287fc339360dd20909342f566e969ba"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/拆礼物.webm",
+      "bytes": 517803,
+      "sha256": "6f781e7eac2b295417c80ff9468902280fdcf3ae5921d59977daa8dab537940c"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/插茱萸赏菊.webm",
+      "bytes": 486358,
+      "sha256": "4e1ba56724da3663e2f5480001ab1141a82e8618c316e6e81e3dae84998452f3"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/摇扇纳凉.webm",
+      "bytes": 510022,
+      "sha256": "87d4b9454692484e4809b45071751b2144fc82fd8696fafabb32e19af98350f2"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/撸猫.webm",
+      "bytes": 348432,
+      "sha256": "068d84e944dfce17de1c5a2ee2a4bc391e2848dad88a7df4877ebf23cf38bcec"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/收红包.webm",
+      "bytes": 472277,
+      "sha256": "a0e7a9a5997aff1357c76eeaaad7a01503c320f7017766dd5a42e643daa505c1"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/放孔明灯.webm",
+      "bytes": 594144,
+      "sha256": "cc6540b4651f6603363dd326801921d6ba220ecaaf00828b42d248eb28beeb31"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/放河灯.webm",
+      "bytes": 379124,
+      "sha256": "af744bed1ff20cc1b0492247add45f2b16433fde0b0897c31d6b0579429b788d"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/放烟花.webm",
+      "bytes": 1330462,
+      "sha256": "539ac09ae29ed0a11bd828df096f3e72f606529b3c59e29a5fcf3b051779a4d0"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/放风筝.webm",
+      "bytes": 770134,
+      "sha256": "9d9ac75871b1c70a77fc4aaa63dd24778d79cbf492c2c5df42167199c7dd2132"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/整体换装试色.webm",
+      "bytes": 524724,
+      "sha256": "e8e599b12da7f3437c98425f6b192dd0c81a6b63bbba5e7927f53c22f757b094"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/是啊，吃什么.webm",
+      "bytes": 588163,
+      "sha256": "94e1d69e05cc66cc1dc8bf6986efc51dfd71fe22fd34166f9efe7ca2d21c1e8c"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/晨间刷牙.webm",
+      "bytes": 425460,
+      "sha256": "017e384e7e13732fb12428d024ef686e79df5b79bfab0d83faa7fa50653d1bc4"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/涮火锅.webm",
+      "bytes": 466547,
+      "sha256": "f0b345c22cf2841137d215a7b9d50252b8be0ede64887e91fdc9bd09843e3c8f"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/深度思考碎碎念.webm",
+      "bytes": 433031,
+      "sha256": "db66867cd1f5bf68b0638fe1f966d0fdf95d1573523e60c77aa8913706118e82"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/点击回应-傲娇生气.webm",
+      "bytes": 392336,
+      "sha256": "6b7176b98408cb649d1d37b6a6222a21aa6b128187e3e0b2d18550d35ab81064"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/点击回应-元气挥手.webm",
+      "bytes": 421669,
+      "sha256": "48cd729ccdcf746369942ea954d242e9afdd5643e1dac3827fa5e67450eb8776"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/点击回应-害羞惊讶.webm",
+      "bytes": 538281,
+      "sha256": "a04968bbc46d1ebea07f81e5dabd93b0b67a9d07f1371e9887b33075134ad00d"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/点击回应-开心跃动.webm",
+      "bytes": 538110,
+      "sha256": "86dcb0c3dd7b651de9c107e927d57a5c4224599101706dbdcc782fa48bcd0ad7"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/点击回应-挠痒咯咯笑.webm",
+      "bytes": 425393,
+      "sha256": "f228279219f4084323ca1bfef1604f7c77bb3f505d45a8d1747b5ac3f9f2393b"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/照镜子.webm",
+      "bytes": 504127,
+      "sha256": "13dc61c003e500d906b6526765072b7a78c0709491a397d4e70a88ec7ea63310"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/玩水枪.webm",
+      "bytes": 523346,
+      "sha256": "448f732417ac4dcb6ca140cd3d73896aaea7f5dac2876a9a0f7c0776478d7128"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/玩游戏气急败坏.webm",
+      "bytes": 525022,
+      "sha256": "8e406bc52cf2a20c9d288867367c4df7c45a5dc78443bc5c2fdc83835ac0b4c3"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/用鲸鱼尾巴拍打地面.webm",
+      "bytes": 352213,
+      "sha256": "e3f92df2cf182fdcb109ad0a865689d66e0a0d10db14c1528e5b3cb2f0bf090d"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/睡觉-开始.webm",
+      "bytes": 331611,
+      "sha256": "5352a208925e01e191c1529d07c61ae61bcda90d92f2b89549c25c949f207e11"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/睡觉-循环.webm",
+      "bytes": 237002,
+      "sha256": "b49deb9b8dae4b83f84b6dc49efd41fdb654b05ad08ac6c5083977e17ef1122c"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/睡觉-起来.webm",
+      "bytes": 379582,
+      "sha256": "a2a4832e546e7639782b74f998d8a6ebc2ec3b3b933c0bcc709487fb4d19ab46"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/碎碎念-发呆碎碎念.webm",
+      "bytes": 326752,
+      "sha256": "02da8cc2194250ae9708b137a3deff43fed2ebd40a7aa4a033b6262c3485eb5b"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/碎碎念-对屏碎碎念.webm",
+      "bytes": 364946,
+      "sha256": "fda85ca286e173b7cf868c91829c3445e55c395e0c788b6be310a855b9b37973"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/碎碎念-擦桌碎碎念.webm",
+      "bytes": 350436,
+      "sha256": "bfb616a3e6ed7375826d8fd00b41b9476d2e4bd65e10abddfb98f04c734e30e6"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/穿针乞巧.webm",
+      "bytes": 480887,
+      "sha256": "cf16647ec4cb5634e4ff022bfc139a2233cd8be82f2391472bc842f7014ddc90"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/舞狮头.webm",
+      "bytes": 632110,
+      "sha256": "6d2006b4023d44087cf4c7dc055d1d8f2a8cec32e22610807a2dfea7bb0dc367"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/荡秋千.webm",
+      "bytes": 644126,
+      "sha256": "f32ea98e9c04553ae39939cd76c469192ebc19d98b90ebf93ec4b88bf95b25c9"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/萌化小幽灵.webm",
+      "bytes": 421990,
+      "sha256": "ac2012601d05bf7de7c7cced415b8793b0be3b7cfa569da06c2325f135f7e94f"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/蓝鲸现世.webm",
+      "bytes": 482896,
+      "sha256": "ed72f0ede7c6cd9482d44aa31002214d461b833c456f3ea40a52c3a0ddc20230"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/蝴蝶蜜蜂环绕头顶开花.webm",
+      "bytes": 852828,
+      "sha256": "fd286c78001fe57fc093c06a4b79ef077ade2dacd2a77e011d3f393f587707ec"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/螃蟹走路.webm",
+      "bytes": 596902,
+      "sha256": "5696b0878be38cc450d6eaace837aef1c1b5834f1382bc6c11c2de582f284673"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/被吓一跳.webm",
+      "bytes": 282771,
+      "sha256": "537dde496e0f776e775dec1bb7bfe3fbc5eebf89112469a1a910ad0433ccde66"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/被落叶淹没.webm",
+      "bytes": 766832,
+      "sha256": "91fc8e3dbfcd24546bc30366beb120fb5de7823ed67986dd8032c9c1b29ff079"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/被鼠标拖拽悬空反馈.webm",
+      "bytes": 464764,
+      "sha256": "31373a86026636eecc890db763760309360310eb095cf5575b13c9ca2a6cc80e"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/装点圣诞树.webm",
+      "bytes": 818456,
+      "sha256": "25da448acdbba49c2d4b209d24053b6dd1b79e656273d1f3e659385dc2bc3759"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/讨糖南瓜灯.webm",
+      "bytes": 483293,
+      "sha256": "9535d1a29f780aa2d78ffaabd7ee1765952bf34b2b380e9edc25dc6a3003070b"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/超大伸懒腰.webm",
+      "bytes": 396987,
+      "sha256": "0ac66d918cc5efd49be1273c3830de73eae5f9bdcd5fcb968d1b2f9b487705ad"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/踢毽子.webm",
+      "bytes": 531015,
+      "sha256": "68937b619a44e9ca7ccdfe77e5657f7a9bfa238beb33768378b6f254a16f3dbd"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/轻快摇摆舞.webm",
+      "bytes": 542928,
+      "sha256": "c621d00e1b959b991df8fc420e409b569e768fad7f75d1fb489375d101fee630"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/轻快记录.webm",
+      "bytes": 447726,
+      "sha256": "1da04162fed5cd52bd4a6a6027a6902f50bda0969d34465bc2d332cf3679bbd5"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/骑木马.webm",
+      "bytes": 697580,
+      "sha256": "5f54a98ccac97eac000d799043411f4fc0732096dc51a2ad766552737578f313"
+    },
+    {
+      "path": "dshgit/dsh-pet/assets/webm/鲸鱼吐泡泡特效.webm",
+      "bytes": 452096,
+      "sha256": "d64d02059dc1602f7de5aa3135d381351363f021b2bceed47655db322cc71db3"
+    },
+    {
+      "path": "dshgit/dsh-pet/cordis.patch.yml",
+      "bytes": 1519,
+      "sha256": "82f91f20718284f4f5db0616c123d036d70fd7271ee8d7cae7db75aaea00f7b1"
+    },
+    {
+      "path": "dshgit/dsh-pet/electron-builder.yml",
+      "bytes": 2370,
+      "sha256": "23cf3ed96117da471bf402aa537e30dde8c79efd657e6b2ff5a3c5ecb8787322"
+    },
+    {
+      "path": "dshgit/dsh-pet/eslint.config.js",
+      "bytes": 2347,
+      "sha256": "01eb4348b73ea13a72740d121a69bca92ef44c073eb8a1e0f7b2419f3513f190"
+    },
+    {
+      "path": "dshgit/dsh-pet/eslint.runtime.config.js",
+      "bytes": 3493,
+      "sha256": "66d3f537111ac080dbcb813c3257f02a3b5cb0406068d9cfa2ce674038b51914"
+    },
+    {
+      "path": "dshgit/dsh-pet/package.json",
+      "bytes": 7257,
+      "sha256": "94d9f475bb33561a5d4ec2e39ed1b224665cae55db89a580be83592618a36448"
+    },
+    {
+      "path": "dshgit/dsh-pet/pnpm-lock.yaml",
+      "bytes": 198201,
+      "sha256": "90752c9a3345edc5ec3e7e48a46e47288c9961d6db2c2da8804edf1af11cf34a"
+    },
+    {
+      "path": "dshgit/dsh-pet/pnpm-workspace.yaml",
+      "bytes": 1551,
+      "sha256": "504da65c931e04cab9018ca917baa9e514d2c66acd400e924ca104c4e77e259e"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/constants.js",
+      "bytes": 9005,
+      "sha256": "d4882c511395a1f4a9171a8ed3125d0c724718bc28d89801540797a0614f86f9"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/desktop-geometry.js",
+      "bytes": 1629,
+      "sha256": "61cb545170ef2259f4e75e2b3006759de4eace61d07ea1b8f62621eb91e11e90"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/dpi-linearization.js",
+      "bytes": 2388,
+      "sha256": "6ea137ae8d4fadfebadc2d89ffe298256a0d94b6b9591069628631aa8f9b2462"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/events.js",
+      "bytes": 27347,
+      "sha256": "a4964ea9a3f48ed4bdc5bc1312050212631bbb5fe84ea33eca92cb032400bc30"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/host-liveness.js",
+      "bytes": 1864,
+      "sha256": "ccbde1a267f08d184a7f2dabd7292a58f179a06f57c908dc15b02b8014ceaf07"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/index.html",
+      "bytes": 12834,
+      "sha256": "350e5ffaa341abd4867575b119987a82738a12da386310a7d138c6296179651b"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/main.js",
+      "bytes": 17633,
+      "sha256": "313485a4aead0eb178ac896c391dc1813413d75a93edbc820907eee6f0269411"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/main/bridge.js",
+      "bytes": 6599,
+      "sha256": "5e3bc10120e6351f93cef3b30bf22d0a91a153b0d5f7c47ea4dca52abaa57147"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/main/displays.js",
+      "bytes": 2732,
+      "sha256": "9df4eb31c2467165d329282494f49fbef7f720c0b5c9458b5a2107bbf4506d4f"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/main/dpi.js",
+      "bytes": 6400,
+      "sha256": "5ce7b29d835c0599ca2dabb6584586fc3e76dbd256baa90178d232c98a524fea"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/main/ipc.js",
+      "bytes": 11247,
+      "sha256": "619c4be9b4ea4586f8b5016cb0ef498c99a87dce1d344c212c67123490cb494a"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/main/smoke.js",
+      "bytes": 13434,
+      "sha256": "dbe978a4026a1cf09c5e35a8544163456a17a54e5e8d8388c0a8f02b16d37012"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/main/tray.js",
+      "bytes": 7720,
+      "sha256": "e0f9436fe6db4d527419d3d657be7975c598972c928da08034043f4e99511edc"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/main/user-data.js",
+      "bytes": 3055,
+      "sha256": "5e2468c427d83379c6f915d991aab859cd159c5662a9540dd54272ad55710509"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/main/windows.js",
+      "bytes": 13892,
+      "sha256": "e2a08ca6114675ec41c36d2db401032174bd2895f1593a3108d98e745c70af9e"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/package.json",
+      "bytes": 185,
+      "sha256": "8cf1275c9a520d92c4e997b7e28074de9881c6394522c6ca15d0fc84cd8c7ca1"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/pointer-target.js",
+      "bytes": 4710,
+      "sha256": "42216d7cd88ef1f361cf818cdad4b3a7a7e09db9fbf22e2640ca3e5fa04a1dba"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/preload.js",
+      "bytes": 3923,
+      "sha256": "41a4d6cc4c8c99671dfd464302fd3eac7bd8f82396e7516b999b7af77bfdbf5b"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/range.js",
+      "bytes": 1688,
+      "sha256": "b9c5536a05c9c85dac8abd31df4dbc1083aa888bc37fa6efc372bc1224794d3e"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/renderer.js",
+      "bytes": 7937,
+      "sha256": "1eb1079abdad06d4c5597d63f48a37d7c562767ae6339718897f1c7555579a8e"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/sprite.js",
+      "bytes": 14832,
+      "sha256": "3bc8a4738f8ccc8fdb89e8a3d60ec73ac20d39693d74b056547206eed04648e5"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/sprite/bubble.js",
+      "bytes": 12554,
+      "sha256": "67a8aec26b1742896c1dc71d2f8116c1dc059e28cade350f2029326e955cd012"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/sprite/init.js",
+      "bytes": 17280,
+      "sha256": "7469ac0e0fa23a0574c1530121f296314069c4638f703eb33ed2980f66d6cadc"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/sprite/input.js",
+      "bytes": 22114,
+      "sha256": "b05728340e01c03d1943439b32cc23b866729c28b6550abcb82a246f889dab49"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/sprite/menu.js",
+      "bytes": 21167,
+      "sha256": "195470e6d905cb821c871a0449fc53fe6fcab4c4f2bd4ed69b4d23f037a8c10f"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/sprite/motion.js",
+      "bytes": 14624,
+      "sha256": "a0e048886cd21123bf46989fb3a89c6059d2d4e12208d8c982588013095ace29"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/sprite/playback.js",
+      "bytes": 21748,
+      "sha256": "bd1ec6492118ae9494c5ec6d0a178d2969461c995e82fc1af0c12906a2715c2f"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/taskbar-watchdog.js",
+      "bytes": 1604,
+      "sha256": "5a9a68b89abe54c8c8cef74654a45e5bac4491b9f8fa9f53a177cfc1d3846928"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/topmost-watchdog.js",
+      "bytes": 2605,
+      "sha256": "71fd4976e79045ded009004f259feef1ef194543b973f0ff2b2f4aafcbfe3618"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/tray-platform.js",
+      "bytes": 1019,
+      "sha256": "c5ba0d66439fb8ad4991b8b47613eb3a3d2d69d1dff7cd86a1e0b3bc92a24fff"
+    },
+    {
+      "path": "dshgit/dsh-pet/runtime/electron-helper/x11-pointer.js",
+      "bytes": 11448,
+      "sha256": "604ec86abc2b2f771daf817fd5bfc45e395b550e3c67da496f7a7c61a5c0d247"
+    },
+    {
+      "path": "dshgit/dsh-pet/scripts/build-desktop-core.mjs",
+      "bytes": 1777,
+      "sha256": "b7a989ed9ed0b59eb1274e7db3734b269a1c9b9ff4766f788a939e442e3bcab3"
+    },
+    {
+      "path": "dshgit/dsh-pet/scripts/check-import-cycles.mjs",
+      "bytes": 3711,
+      "sha256": "0392279bae4dedaf5bb6381d5eb873d6f2f88cf058c472a73f1f77a31426170d"
+    },
+    {
+      "path": "dshgit/dsh-pet/scripts/check-openapi.mjs",
+      "bytes": 6478,
+      "sha256": "2a3c9c7dae31b128ad1ff0d9a65be2b76635f8045322c5aeed71c92567acf73b"
+    },
+    {
+      "path": "dshgit/dsh-pet/scripts/dev/mock-server.mjs",
+      "bytes": 4508,
+      "sha256": "6453f11ff183a0a40c0fe38b176c382398d9263467a84c246fe56ecbba110ff7"
+    },
+    {
+      "path": "dshgit/dsh-pet/scripts/dev/subpath-proxy.mjs",
+      "bytes": 3688,
+      "sha256": "b14ef0cb35b5ac9d7690195bb1ae53798ff0a44751cad1c586efef103b765aca"
+    },
+    {
+      "path": "dshgit/dsh-pet/scripts/dist.mjs",
+      "bytes": 4249,
+      "sha256": "1864e801dcc835c6d1bc8101076bb436d135b064f8a98b079a9dd74c9a8dc49f"
+    },
+    {
+      "path": "dshgit/dsh-pet/scripts/ensure-electron.mjs",
+      "bytes": 2438,
+      "sha256": "bf04a64f22f2da021770fa2cd0b25f3baf6a0c0301031ef1b41ffc333291e493"
+    },
+    {
+      "path": "dshgit/dsh-pet/scripts/gen-types.mjs",
+      "bytes": 2062,
+      "sha256": "ae47a577d5a076ff764a5cb5f7d8ffcee00443ade4d804fcbfb669a5c6f87fc1"
+    },
+    {
+      "path": "dshgit/dsh-pet/scripts/prepack-check.js",
+      "bytes": 10804,
+      "sha256": "ca16df29be8194b753d5be252fad61ab5ee128e45b2b5fea8b62aa5533e271e3"
+    },
+    {
+      "path": "dshgit/dsh-pet/scripts/prepare.js",
+      "bytes": 3652,
+      "sha256": "d1d0e755d842a26519555f8e46f81e5c99ba5c270c644b4aff6fc75e0dc40e71"
+    },
+    {
+      "path": "dshgit/dsh-pet/scripts/start-app.mjs",
+      "bytes": 1858,
+      "sha256": "e9fee8960d73f3979974528a48af21180af6ea563400dc3c5b7889dc2173ceb3"
+    },
+    {
+      "path": "dshgit/dsh-pet/scripts/start-desktop.mjs",
+      "bytes": 2973,
+      "sha256": "2297def486c9a591e9167e490af4ebb22c564fc480eb3c378cfc8a892230c057"
+    },
+    {
+      "path": "dshgit/dsh-pet/scripts/test-register.mjs",
+      "bytes": 368,
+      "sha256": "18d1b040d919c136e7dcc885745b7d601eec9725d9584ed5a3e409d418cbd58f"
+    },
+    {
+      "path": "dshgit/dsh-pet/scripts/test-ts-resolver.mjs",
+      "bytes": 1257,
+      "sha256": "79937f8e2aef65d8d61d6cda7c4d7d4de5a050998bff54a08e4944128c85ffcc"
+    },
+    {
+      "path": "dshgit/dsh-pet/scripts/tests/README.md",
+      "bytes": 752,
+      "sha256": "33911bc7cd7568235a6470c2f986ada25fec992cb190cbf2ec8b2a020993dd16"
+    },
+    {
+      "path": "dshgit/dsh-pet/scripts/tests/desktop-macos.test.mjs",
+      "bytes": 11033,
+      "sha256": "4f37ecf27acfb7a480651b2d25ccd5f136ae7c44116fb3ba19f4ae296b765e36"
+    },
+    {
+      "path": "dshgit/dsh-pet/scripts/tests/range.test.mjs",
+      "bytes": 2025,
+      "sha256": "11f71c4f635934f6a0d1eb85f972e7a16bd1279345b5ec6f05bb4dad1ed9177b"
+    },
+    {
+      "path": "dshgit/dsh-pet/scripts/tests/settings.fixture.js",
+      "bytes": 637,
+      "sha256": "c86a0f2cf8625a8cef3791371b803603744ead645c4bcd229206dbc3fdfd8b79"
+    },
+    {
+      "path": "dshgit/dsh-pet/scripts/tests/settings.test.mjs",
+      "bytes": 11633,
+      "sha256": "03d25faf9ebae492e6c915b871cd10de5ebd75a8072be487d83f3f33f5715938"
+    },
+    {
+      "path": "dshgit/dsh-pet/scripts/tests/user-data.test.mjs",
+      "bytes": 3566,
+      "sha256": "7a835458eb14fe580b2f8a23cd1eb27a148ec9de0a824c8a125abe676e648e84"
+    },
+    {
+      "path": "dshgit/dsh-pet/scripts/tests/x11-pointer.test.mjs",
+      "bytes": 3845,
+      "sha256": "3ae0587d7111e83588d56b13bc058f1b2a5cc37104950e2ac82f57cb8c65f8ed"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/app/desktop-auth.test.ts",
+      "bytes": 2131,
+      "sha256": "39dff58425f13bf2be285a09e9db37b57c48409fb4dd359be9dd8612c780b0bf"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/app/desktop-auth.ts",
+      "bytes": 2743,
+      "sha256": "fc6a888451bfb08db91ccef73c97685a059e91550807bd49b7006a51fd87212e"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/app/main.ts",
+      "bytes": 10984,
+      "sha256": "c56bc44446a33c15b5bcbd764ab3219ee59fb244858a3853878bda2f23b63818"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/app/router.test.ts",
+      "bytes": 6136,
+      "sha256": "0f5eaa4b5ca2f47caee3c10b7ffd6a5a6afb1f4b7ec8de34b39de839e15c1836"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/app/router.ts",
+      "bytes": 6582,
+      "sha256": "8f7648049618b9fa65483c47c73fafa59417fc1174dd925953a1e80c8bfe61d9"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/app-shortcut.test.ts",
+      "bytes": 7736,
+      "sha256": "021f62844ccda53d3e3cb5650033d26b91ffe00ba1e706c653f0d684adcadbb9"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/app-shortcut.ts",
+      "bytes": 6848,
+      "sha256": "77e67149975ea8e86d69f605b3744b2160a0ee7c4024a866e9067f90aafde720"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/app.ts",
+      "bytes": 11886,
+      "sha256": "d72bece17ea307b599ad7eaef8cf6b99f9d39592f1939eef2bd3de0ce848f9de"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/bubble.ts",
+      "bytes": 19443,
+      "sha256": "bf93a22689624110fde13e2c408920bd67bbc4c270ba93a66b3a4bc9a0d58a8b"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/chat/actions.ts",
+      "bytes": 6690,
+      "sha256": "d16263044f45ae0325cf9d0313d982759928eb32ebfc462fafbb1aee1f215d07"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/chat/api.test.ts",
+      "bytes": 13215,
+      "sha256": "207331eab6aad7536e22184ec4fdeb9ef7ff2c407a5f554e51c7cd94c6d85270"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/chat/api.ts",
+      "bytes": 15394,
+      "sha256": "c99096d236d89179eac886e45a49ec676ef077d16fd4e0a2024e2f1479ebfe29"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/chat/effects.ts",
+      "bytes": 4251,
+      "sha256": "dce1e3becc80b163651c62152d09fb6aed5db485aea64bf0451c179ac75db97d"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/chat/metrics.ts",
+      "bytes": 1481,
+      "sha256": "14bd493b26852fc2970e4bb0a139d29e6b6aa7171d2f0c7846b684a1d070e5e5"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/chat/panel-css.ts",
+      "bytes": 15175,
+      "sha256": "1941a6e135828a087c5eb095ccdfe20355a19e677dcdf722ced14289b93cd402"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/chat/panel.ts",
+      "bytes": 843,
+      "sha256": "987abbfb206acf8e13c6d55c084f9a4dde87c61c998ca2bcc84f54186fa73659"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/chat/register.test.ts",
+      "bytes": 2948,
+      "sha256": "64d75ef202849760179514edcef53a3382ff66ecab90d5c704b0ad1dce811072"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/chat/register.ts",
+      "bytes": 4811,
+      "sha256": "663f7832c04d4449bccaec485771f2ed3b17401061698ec0b2810056157f4203"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/chat/runtime.ts",
+      "bytes": 1384,
+      "sha256": "bf9cb7de9ff359ded9ebd835b55dd4ea5c2ad7074ad6366359ffb31be961a965"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/chat/shortcut.test.ts",
+      "bytes": 4666,
+      "sha256": "cec8377507f083c5f66f1cf7f075a4b8d82f728b8007b4f01b4d3fdf8e212933"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/chat/shortcut.ts",
+      "bytes": 1847,
+      "sha256": "284dcbf906a0350d8ba01d6d9b2c515a5f4911509e3cd0ec507d263d86b4bb3d"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/chat/stamp.test.ts",
+      "bytes": 1412,
+      "sha256": "3cd5742f6083bd84f664c89a6de9cddfd391f7b2ca8b8318d97c5267977b62b0"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/chat/stamp.ts",
+      "bytes": 1783,
+      "sha256": "b9779bb49e98f7677dd180b4fc65177da3f57d6d78d73d2059864965260d517a"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/chat/state.ts",
+      "bytes": 6126,
+      "sha256": "dd21dc0d123c511174e1f0fe59fbbfe6076073368f2459152aff69691bf7d004"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/chat/styles.ts",
+      "bytes": 1510,
+      "sha256": "385d50aab70033f8b32491c7cb232efdcbdfd36063384cdcb5f0a3bcdf58bc38"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/chat/tooltip.test.ts",
+      "bytes": 8394,
+      "sha256": "d7a4ea45fa9d898b63fd773fc73b30e33f8bf93f7e4242645f426a06b51b474c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/chat/tooltip.ts",
+      "bytes": 3794,
+      "sha256": "93900580f61774d406dd4a920fc93e6da13f6f220538a6f3b063818ae17c90fa"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/chat/types.ts",
+      "bytes": 5366,
+      "sha256": "342263775828cfa003cc12832f0a1b01cc6a6aa9888f9fafb93d67b1251964d1"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/chat/view-message.test.ts",
+      "bytes": 2695,
+      "sha256": "5d5c7cda51b6377e5135e3d6cf3d902064cf82ac7935ae08fac2f570acda64fd"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/chat/view-message.ts",
+      "bytes": 10254,
+      "sha256": "a7c51c5b6bf475e41e4dca2e219af832ae5cfa11fe9c421f55c0a6ad064beedc"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/chat/view-node.test.ts",
+      "bytes": 5233,
+      "sha256": "2645135b77522e0a56eb6e15cdbc86f4e77eaa64df5507589a36d17614eb877c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/chat/view-node.ts",
+      "bytes": 11152,
+      "sha256": "ccd47a5d458794f2b9efc3364d07a7b94014338a6384b0d25a8c959e1d3fe75c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/chat/view.ts",
+      "bytes": 5058,
+      "sha256": "16dcdeaadcd2bc256ccd3e5cc4f72f91f1b25c74779457d257bc8bf581f4804f"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/command-faces.test.ts",
+      "bytes": 9820,
+      "sha256": "6e2527ae5cd09e52111a4b618e5a3d9d2b3736546d8b8c9280802da231bb57d5"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/command-faces.ts",
+      "bytes": 2939,
+      "sha256": "1a30fc3b3fc2d4f6d485b253c1f0fdb68b14d5db28ceace3a7bba37b3ccbbaed"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/file-drop.test.ts",
+      "bytes": 8561,
+      "sha256": "23efc0e840ea4699c2d750fbed2832cc00f30835e6ce54240ed6175e591e50ec"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/file-drop.ts",
+      "bytes": 4145,
+      "sha256": "c2d495877f866cb2ab8c37789e6d8dccaf44e9a34d5824df22d8fb84f780263f"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/index.ts",
+      "bytes": 838,
+      "sha256": "9f6224fe5c80a9dc1602fedd5d9f31383094773023985030cf2ecf89bdc0de8a"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/menu-service.test.ts",
+      "bytes": 2387,
+      "sha256": "f04e8f4b762e8edaa53e8e0030e60b8feb210b7849a977e57f0628d7700cb705"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/menu-service.ts",
+      "bytes": 3258,
+      "sha256": "ae8c5bff3c6a16d4263dfb772ca854e2ea83794af3bd22b096367b914a6bf406"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/nav-icon.test.ts",
+      "bytes": 20782,
+      "sha256": "6a6754ea21fbf85aa995d6b3c542f9eb5cee63a1f76728bf4f82e709d92a69ca"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/nav-icon.ts",
+      "bytes": 10188,
+      "sha256": "ffe74b975a2c7a49673a96152a642e305e54b7f2462ea0f89cc19d622f3513ce"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/notify.test.ts",
+      "bytes": 1610,
+      "sha256": "fbfd5a2744c7d1fae5f5aecef530936543ac2cc02f8f9d14a73bf9ee5d110825"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/notify.ts",
+      "bytes": 9622,
+      "sha256": "22aefbbd29b179a6178b63c83b0492d453ec604b3fb8cf650539c163d803b57f"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet.ts",
+      "bytes": 1206,
+      "sha256": "fb51439bc8b4739b4a27e4f6bb4d93eadd76a7ef010b4405d596dacbe80f9494"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/animation/animation.test.ts",
+      "bytes": 10381,
+      "sha256": "c09d51090dbf58ebadda9ff9cf2a5706111219b94ea48c7034b5915d2f1a37f3"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/animation/animation.ts",
+      "bytes": 13061,
+      "sha256": "a732df1b07cf38496d976032b00ac2e3c513434d12f021c724bf074c6fa0a52a"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/animation/asset-loader.ts",
+      "bytes": 2583,
+      "sha256": "788117791940a92305e8638f25ebed631ac3bdf0731383d9cef92630b2cc4ae1"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/animation/assets.test.ts",
+      "bytes": 1786,
+      "sha256": "48f28ecaf67c2f2a6d4d6b90f20e0bc8230ca11c98b68c6bd6870f616eda8df2"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/animation/assets.ts",
+      "bytes": 1393,
+      "sha256": "14a86736bedda597c9e6e4f84db99f819ec07f35cd6e8870dbb12d83cdf0fad4"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/animation/cues.test.ts",
+      "bytes": 2943,
+      "sha256": "17e0aa1206862ed1c5e28222bf9c232aa13adedcbbe8b4985be7d7f7322f2063"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/animation/cues.ts",
+      "bytes": 2475,
+      "sha256": "2d8a9fc07c7f2e515a2558363963e24a430b019e115438851822cd7c261e269d"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/animation/media.test.ts",
+      "bytes": 3353,
+      "sha256": "41f251b0a8bc7a38e55c9c65276c4fb0b55fd5d9fd59255784d38e9628dcb48b"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/animation/media.ts",
+      "bytes": 2046,
+      "sha256": "9e482ea88e710423434ec751097d3702895671b48a34636aaea69ed6c3230ac8"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/animation/next-animation.test.ts",
+      "bytes": 3191,
+      "sha256": "ad55aa98d70b3ef28fc211befa2afbe75df85eca19d5583903974cc58b12ffa1"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/animation/next-animation.ts",
+      "bytes": 2459,
+      "sha256": "d28c4b2c3b24558a998ab66a7fbe2fc4ceb924975f31e14a3355901d7cc3c052"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/card/animation-flow.ts",
+      "bytes": 9781,
+      "sha256": "adbe144cd80b6e666d98483a248536ad024f09b476a9142aebe42a87f9f001fa"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/card/animation.ts",
+      "bytes": 7693,
+      "sha256": "6c60e15068fb6dffd5629f3d188207797b22b07a01aa2ad69e4376d7497a52fa"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/card/bubble-slots.test.ts",
+      "bytes": 4550,
+      "sha256": "3d8ac3190613f1e64f06beede2b5c789783fb7039baa177864aaae1c73d768b4"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/card/bubble-slots.ts",
+      "bytes": 15090,
+      "sha256": "e17b4fbaba12e145b8fc53c85272e1879ca1ce05157d5dd2cc846c1d39e94aed"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/card/cue-effects.ts",
+      "bytes": 12278,
+      "sha256": "d73ec27217b2d232a9bd49a6feb51bdf87bd110cf137bab74051432aa8fb8dad"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/card/drag.ts",
+      "bytes": 5628,
+      "sha256": "205d4332a29b7e56b2bac09264cb40f5a15d1ace21b0ef73e96336cdb80cdf2f"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/card/entry.ts",
+      "bytes": 18478,
+      "sha256": "e72bff41ad407ced4c008bfa64fbb59c09abd925bbd358291674509081cd65ae"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/card/hub.ts",
+      "bytes": 2528,
+      "sha256": "7ad7bbca02fee3095ea5f190a2bf2c6b4349a2afe454c2ffdf624bac8a0517e6"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/card/live.ts",
+      "bytes": 1736,
+      "sha256": "c81e2cab5dbe0a7313b6ee4412bc25e4a4892e02cf5dc70465042f0b577b18ef"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/card/lock-freeze.test.ts",
+      "bytes": 1237,
+      "sha256": "736c14e5fab0cb4769bb53b4128a43603f96a5ffaf50c295a41f0aec0313d730"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/card/lock-freeze.ts",
+      "bytes": 4159,
+      "sha256": "570f0f139e8b128149621459b6e5e7c73cda19919ae6790276bb49e512b4e82b"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/card/motion.ts",
+      "bytes": 14740,
+      "sha256": "e8d804717bf4b3272ba7c0992ea21087fbc548c62f443273a7c12b8207345cba"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/card/open-chat.ts",
+      "bytes": 2677,
+      "sha256": "452d87eb55f9c68c7051ce46d463ed4fd63cadfde6b2d91fdeba1a808e955c8f"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/card/pet-card.ts",
+      "bytes": 1023,
+      "sha256": "27a072d7a0632430c033763fc4d4f93e41062a74be892bb6051aab11ec285dba"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/card/props.ts",
+      "bytes": 3120,
+      "sha256": "040ed4a015910489bb85f59c9848b1ae9099f4fb1f41ead5cc9b879b31ccd550"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/card/registry.test.ts",
+      "bytes": 4910,
+      "sha256": "66b4d01631769814ca487452ff771e2c5bf995581952fd3a55375cd133c78bf7"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/card/registry.ts",
+      "bytes": 3199,
+      "sha256": "3b18bcbf203613c1f1229a2d0e593bcbb7e50cbf086872e8c04c189c50b7b5fb"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/card/runtime.ts",
+      "bytes": 15512,
+      "sha256": "375dd4958d53a0db4a22d2162179e527b495c5652eb3c98b4e1b13cf2dbd7df2"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/card/shortcut.test.ts",
+      "bytes": 7274,
+      "sha256": "61cc9ba8f043fbaa62aa2c292446c3768a9fc8c73e82c57ce136a803e6ee04ba"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/card/shortcut.ts",
+      "bytes": 3797,
+      "sha256": "0607c8cda30b03ae08ced910287cadc4c94d49041197043c223f4b7016197711"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/card/sleep-machine.test.ts",
+      "bytes": 4804,
+      "sha256": "986afde378b0fd3c24df708f74cc3e2e5fc41708e4d1e115a787ba254290268e"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/card/sleep-machine.ts",
+      "bytes": 4350,
+      "sha256": "4112230bbc31b9d53b4d265a1e39ceef7114e661425052dc062b678803231949"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/card/state.ts",
+      "bytes": 5993,
+      "sha256": "9d32e934d867fbcaea023a2c8b74d3dd49c4f0b7c8487c7df74ee51d38183d40"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/card/view.ts",
+      "bytes": 5665,
+      "sha256": "88aa170b565741e4edf1ad0ce80236628146aa7983c2c9927c7c404cf7c80c45"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/click-sound.test.ts",
+      "bytes": 2961,
+      "sha256": "e3b30e12bb5abaeb7bfa68cc46c14da3c5e50e90fdb455b8ed5f9f61e9382a18"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/click-sound.ts",
+      "bytes": 1733,
+      "sha256": "4ca6be7d03b772c2e0ae2681648917ab785e80109ad2ea8959111c115c178ac7"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/css.ts",
+      "bytes": 2716,
+      "sha256": "498dafeb89d75b480d9c90bdf9d1eef34627a70c4426a6b4a8fba9f88052673a"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/device-tilt.test.ts",
+      "bytes": 6780,
+      "sha256": "51d76dc87fca2c7fffad4d7504c01784b693d3d1a2ffcc850f601eb5be307bdd"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/device-tilt.ts",
+      "bytes": 7925,
+      "sha256": "75c15caa6975d0720ae3f8a7997ea4d91ff96e4cd2e4b1682caa3230554b34a8"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/haptics.test.ts",
+      "bytes": 2669,
+      "sha256": "a67caa8abe139142d29dafb1b11595a5c81cbf96fb888eedd18c4a2de7a62d97"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/haptics.ts",
+      "bytes": 2969,
+      "sha256": "270870ebebb19ef21daad13eb2b0e2ff66ed996b4eee1d3917f492c8457770ef"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/menu-actions.test.ts",
+      "bytes": 9822,
+      "sha256": "8a7ca9f5077fc268070eefc1248857c4cffd07789cceeccf38c51995460f8272"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/menu-actions.ts",
+      "bytes": 9994,
+      "sha256": "4667d49abfb0231918abb76fc5d8125632424a54245d7e66ee48d691c7f86ab7"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/motion/drag-follow.ts",
+      "bytes": 3333,
+      "sha256": "bf8d2087e1d8fb1d18dbf76a2df1f3e6cdc1c41826088c8c33a09081ac9f58ec"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/motion/drag-release.test.ts",
+      "bytes": 3582,
+      "sha256": "d248cc286b1304c4208a53b015c7ceebba959871442d84e0de5302ab90d226f2"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/motion/drag-release.ts",
+      "bytes": 2585,
+      "sha256": "4601bf4e5754f79f37780ae37efadefd719f130a16708a92089a213ef3694d16"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/motion/drag.test.ts",
+      "bytes": 16447,
+      "sha256": "a2737d5acb6800d9c78aad1f3e60cd646a367deeb06b3de43bf088943c7378aa"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/motion/drag.ts",
+      "bytes": 18183,
+      "sha256": "66bb1f6fb487e7f239d747d998420dedcfd59ded70146d05e443b4268f246e88"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/motion/flight-integrate.ts",
+      "bytes": 1770,
+      "sha256": "2229bd83416cde850a569657b78a7b2a00890c33e0a1416ae4367d818fca654a"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/motion/flight.test.ts",
+      "bytes": 9776,
+      "sha256": "a2d79c2f37cc2d14a0c0ddd9283b411b46aaf7dd24bfdcf3a8ab2b02cc6c1c3d"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/motion/flight.ts",
+      "bytes": 10545,
+      "sha256": "60486d7c6540eae5d4a9449bd64747a8454f376eb83ac7f89210dfe57ade2fc3"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/motion/geometry.test.ts",
+      "bytes": 8627,
+      "sha256": "b5bd3e1a1a446575846a0fe0a32109bf9ddad49d1072670e3fe249e9accacb4d"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/motion/geometry.ts",
+      "bytes": 6391,
+      "sha256": "664e1c2b3af03ddaa7a02bc46a1ddf42451ce184ece9bf86d3586d91c7a119e8"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/motion/move-action.test.ts",
+      "bytes": 3273,
+      "sha256": "0018bdf9dfe3d39a9af15502d8a59bb4787bd7c45ce727fd5cb02e9d7be1509b"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/motion/move-action.ts",
+      "bytes": 3277,
+      "sha256": "a853311c791587ce943db240228882fe3abdb13c096830b1ed0a9af3dd484084"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/motion/pet-collision.test.ts",
+      "bytes": 3361,
+      "sha256": "731d0fd9addb62a6aaf7e6bd770e3b7e940b1f3a8ce2b101db847448e05f8a2a"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/motion/pet-collision.ts",
+      "bytes": 3358,
+      "sha256": "6fb063149adcea0170bee827dd97903439f9ce5607bfdd18b1a9b2a606c3fb6c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/motion/position-follow.test.ts",
+      "bytes": 6231,
+      "sha256": "404e2d1c07ee1e32e5feb5b8d0cde87d139c76894fa8d06855bb03e3130d9ff5"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/motion/position-follow.ts",
+      "bytes": 5422,
+      "sha256": "2aad1b128e2492a13b8b3bf034d401f8ab29b95fa9c98ebb0187d2b8f8ebfe6a"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/motion/squash.test.ts",
+      "bytes": 4870,
+      "sha256": "3db722e964e80096ad95392b0bf8bb12e780a8c7cdddca88efd255f84ddeb92b"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/motion/squash.ts",
+      "bytes": 2477,
+      "sha256": "74653b98c2b8b94ec0fed11d21eb65fd3d3c3deb0612b57d24c6191c84ca394d"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/motion/touch-press.test.ts",
+      "bytes": 4222,
+      "sha256": "490d8c3e030ef9ee4d6a17addcebe04c26ad31497e7582f26029283a3cc0751c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/motion/touch-press.ts",
+      "bytes": 2953,
+      "sha256": "1d5f79e9de268e75e819ca2bdf9690070b91649d0a997ea8f5337ec5fecb97df"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/motion/walk.test.ts",
+      "bytes": 8985,
+      "sha256": "cb14432f268609215048dfe3c7f8f2bcf36a9b9e588691281778f414111e8f61"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/motion/walk.ts",
+      "bytes": 5886,
+      "sha256": "157d153311c560f5121689ff838830b7a7f985db5204e46ea5fa9d0e79b786a5"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/multi.ts",
+      "bytes": 17396,
+      "sha256": "886a3c2f5bfe8784bdf36812ebb696c20fdf67e50e8fa29d2bfc3987d8c6e262"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/playback-report.test.ts",
+      "bytes": 1622,
+      "sha256": "8d4d5f1ab88c5aefcea141d07d8a3d71a19b36b14bf3f727bb680b878b5ed020"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/playback-report.ts",
+      "bytes": 2000,
+      "sha256": "c28ab410a9d20824910a9bdba3b9fa9ee9e0f5bbcf3925c4cdb48a09b59feca4"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/state-poll.ts",
+      "bytes": 2367,
+      "sha256": "1ac80d61e666dd8078a84a0f3e53d476ae6a0c86916a2ece633f7061032207a6"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/timings.ts",
+      "bytes": 678,
+      "sha256": "6e879a6b23d5a689240a8ce9668e31ebcc7d6f68427026300b0ec426a573deec"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pet/types.ts",
+      "bytes": 1056,
+      "sha256": "1111dd3dde2b59d91b38e0d3b4af807751f382a70e978c0bf3c6c389853daa8f"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pose.test.ts",
+      "bytes": 2295,
+      "sha256": "e047881fe234d010b88b858993620ef868924274a39d4f929759933ead77beca"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/pose.ts",
+      "bytes": 1955,
+      "sha256": "b54b803b6f6c6893e0da0018586bcba724bd0c1fad22ca8f7d8862957d031df8"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/progress.test.ts",
+      "bytes": 3205,
+      "sha256": "b36408a1331db48aafb23e4324b5b36dc9e5f6427e2dddec36f259d7d264c96c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/progress.ts",
+      "bytes": 2579,
+      "sha256": "daa36a8de2a6baae6984ee70125ded75e1aee45a74e8b151b93a9ed15b5a6355"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings.ts",
+      "bytes": 22608,
+      "sha256": "e71a66bd6fde63632903277830f0493159c92e4ff6be31be2626f1222cde8bc3"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/actions.ts",
+      "bytes": 2683,
+      "sha256": "65036c31081a221deae51d6751181b320b940a0ae850d8b5b47e06c92bab361e"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/avatar-upload.test.ts",
+      "bytes": 3044,
+      "sha256": "7528dda5bfd441fa91d46d59e647b167187c27508291c2d3ef4437b7a33f57bb"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/avatar-upload.ts",
+      "bytes": 3892,
+      "sha256": "5ce1f80e15fc8cbe660481dbbd8908b054d7d3bdf657b7c90ceb954530a31f89"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/bridge.test.ts",
+      "bytes": 2308,
+      "sha256": "f419c663e7ba045b3b138750a41ddc31f7554d48ebd7fd5b0b8960a08aac8f87"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/bridge.ts",
+      "bytes": 813,
+      "sha256": "89be7d29f823b1b4ea75cf566b8f045c009c9f82bb27c31bb3294f60b6dabd12"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/config/http.test.ts",
+      "bytes": 9147,
+      "sha256": "035e51ebf5c92848a6c9bae0ca870747c4a4c21339cf0a1b71ec78f0f5d1eda4"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/config/http.ts",
+      "bytes": 8930,
+      "sha256": "e256ac618b333bd92196ef9103c3103ff327372d5cd6fcb352599997f6756119"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/config/index.ts",
+      "bytes": 1020,
+      "sha256": "39fa999a7fbb2fa617d1ad4360dc09f214eca8f372becaab4ba20eb4cda5fbac"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/config/pack-writes.test.ts",
+      "bytes": 3182,
+      "sha256": "9b6fbcfff1f533c73ea3fa7af36e02c210f9e112679e49dba9ab9a8cb98f9bfe"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/config/pack-writes.ts",
+      "bytes": 2345,
+      "sha256": "22b23a549d34a828029bc5435ac64f75b87c9d3364dd1c6bc91106a13a5a82bb"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/config/persist.ts",
+      "bytes": 2925,
+      "sha256": "f51cdd963d9f91ac60c32017bb504c9c3a8436fbc75b8d277f013e5f82a0c4b0"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/config/read.test.ts",
+      "bytes": 6579,
+      "sha256": "f35a38893637624c6b681794c7483ef9f64dcdf6f431e87a4908d8811bd4ca74"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/config/read.ts",
+      "bytes": 7457,
+      "sha256": "304bc133e5e897b1c855610625da09d7d1e9df2eef65a274543b7915d368c0e3"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/config/use-config-load.ts",
+      "bytes": 2281,
+      "sha256": "84119d31348620c9d16b066acdc7160b49fa372009980c13ceb42a62a3daee83"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/config/validate-form.test.ts",
+      "bytes": 4439,
+      "sha256": "d545f107f14629a46ba2614467c68ca76e854ab23c9e9c56bb96262c35b4e720"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/config/validate-form.ts",
+      "bytes": 3374,
+      "sha256": "36faff76eac699f0602d5cc04651f9a58078aafaa0ee5b78b586a547da39c102"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/config/write-flow.ts",
+      "bytes": 4829,
+      "sha256": "42f1c1af3eb8a303f48d703d4a6508f13cb80a9bfd8d08b9684f6c65070cd02a"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/css.test.ts",
+      "bytes": 4339,
+      "sha256": "d9ba0cfcef4576e48e8180baf4b23425e5d0837b7b0c9a99c180fa3b6c80a001"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/css.ts",
+      "bytes": 17367,
+      "sha256": "1188b722854eeb75e641ed771fc524e6e7b794e043217231a76e4bbe6287df19"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/dialog.test.ts",
+      "bytes": 4356,
+      "sha256": "f7c8cea94c13e198ea199b1306e9ac291bd364b66f95930b6e14f0f42535c7ed"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/dialog.ts",
+      "bytes": 5241,
+      "sha256": "3cd95545800734cdd4f9e445ef16407765b381dc4d0108a1c27fba40d0e06b20"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/font-card.ts",
+      "bytes": 2763,
+      "sha256": "67149880fea12539c39f9b11e95bf15e0bbeab4eab71c4b2e0fad581b70c8678"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/global-card.test.ts",
+      "bytes": 2697,
+      "sha256": "0ee3582ae1ab9448fb227470d215797ea13ba7ea477a4f1e18c948c4799a5e33"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/global-card.ts",
+      "bytes": 2276,
+      "sha256": "7cf4118792691a6555cd9743234a3d56e41c3a78732964c42ad3de2f68a70c5e"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/kind-tabs.ts",
+      "bytes": 1847,
+      "sha256": "9f17bb80c76cc108b540fe5d3a459bc69f20d64dc6984b2e47eb3094e1f3a377"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/load-status.ts",
+      "bytes": 1452,
+      "sha256": "4cb7e177c222c783a90206f7484cd76eec633070f0e48e7a9efc0b3aeec4248c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/locales/de.ts",
+      "bytes": 23929,
+      "sha256": "4d096d3fb4b150fd97e7214028a359db10bd09315539c98a588f8c675b0ea63b"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/locales/en.ts",
+      "bytes": 21342,
+      "sha256": "92c316e3eaf69ab9104c112920e323340b549918874a6c7f20a7095b76a1514c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/locales/es.ts",
+      "bytes": 25275,
+      "sha256": "2493ce62e4cebe4b337d9e780dbb11e87dbbad8604a8c969146b4b9ea087c4c5"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/locales/fr.ts",
+      "bytes": 25974,
+      "sha256": "d070635a6c1a4a2728bf8400d9ab42d3a4fb8a9aff5fe2255d6d31f5078f0590"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/locales/index.test.ts",
+      "bytes": 2513,
+      "sha256": "3b4ad3206dd17a61993cf2d6acae4e98f579cdc5469a1dac16ccf172d7fe3748"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/locales/index.ts",
+      "bytes": 887,
+      "sha256": "333df68b7f1d20c55aac49dfbdd156f34c0d4fc2bd40373cd928baf6747ee249"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/locales/ja.ts",
+      "bytes": 30472,
+      "sha256": "45b54a3fb57337333141bba515ea20b31164e3f7b355775240704678810258d2"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/locales/pt.ts",
+      "bytes": 23133,
+      "sha256": "8c82fbbd9a0524bdc1fae2e78822f7f4db697b8a43e4c89a33465805315dfae3"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/locales/ru.ts",
+      "bytes": 37324,
+      "sha256": "48dcb689540da55de54899aa112f478e13ea36288d2d299b87cf38a034c911c1"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/locales/zh.ts",
+      "bytes": 20279,
+      "sha256": "6a8bc317d2aa79f2fc31cfe93110847e91479822a52af8228ab064ce0e3e23dd"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/mobile-card.ts",
+      "bytes": 2581,
+      "sha256": "7d04d6c58d8ff39004ce8b7d2e1a931b77ced2599186f3576c432d02d1bb2b66"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/model-card.test.ts",
+      "bytes": 3803,
+      "sha256": "83c58cbf27c2e1c7ca1f917f43eceafd8e8be3ecac65b7ea46f49c64463c0efc"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/model-card.ts",
+      "bytes": 5080,
+      "sha256": "10e89eca6084bd249b87fa531a8b84939bded3b78204d19054dc3c24a4d3b849"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/notify-test.ts",
+      "bytes": 2144,
+      "sha256": "70820a17fd502ca8076f59420a1e29904332f2f775f686be576d6279ef60354b"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/panel/placement.test.ts",
+      "bytes": 3812,
+      "sha256": "c72c226fe9d68c5643a597796aa4cb335ad3955c093a37b5b5bdb3a26402d6af"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/panel/placement.ts",
+      "bytes": 3678,
+      "sha256": "779399737e95ddcdb2b45252f51f8b1c65ef729a7bbc8247436e542b6fd80e6b"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/panel/select.ts",
+      "bytes": 8050,
+      "sha256": "f10500779ac5d1e0acc37619762e9d5d22055f7cbef13198af5befa79f160199"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/paths-cards.test.ts",
+      "bytes": 6022,
+      "sha256": "ee46b9fe71f93f2835547be47147915d407c8fe9ccc2d13f3802fd2ec686803a"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/paths-cards.ts",
+      "bytes": 4718,
+      "sha256": "5a9388dbea8e749a1ba24accaea8a1cae5dd4c4be15725ffc0979f483ca5c52a"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/pet-card-parts.ts",
+      "bytes": 7547,
+      "sha256": "649fad01532786d1b700a9374a2b055b4ed053b15d4ffcd6d8fa61eff78a7e13"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/pet-card.test.ts",
+      "bytes": 12165,
+      "sha256": "8139d0162633c0d2b75811a8dc9a161b21fa91eb63f63c53cf283dd9f2e06cc3"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/pet-card.ts",
+      "bytes": 6778,
+      "sha256": "7cee5e9eaea7cef98bdbc125cb066663d25e216ed3fb6cf41562b399493a0dff"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/pet-draft.test.ts",
+      "bytes": 2803,
+      "sha256": "04a6da496dc6c657a87ae21f82859044ee0ed278de723077bcb15a425dfcfc53"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/pet-draft.ts",
+      "bytes": 2122,
+      "sha256": "99ae71ed653f8d1bbc2f613525120d8b01f2d1d38f9f16ed3dba820ad832b2ec"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/pet-tabs.ts",
+      "bytes": 2084,
+      "sha256": "aabeb5eee83e9ce95b496b5d6af7c7a83d5752da808fe0dd55f952e86694f083"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/physics-card.ts",
+      "bytes": 2690,
+      "sha256": "5b510bee1942fcf969182ce371b1cbdf62810f0871956962c89d7842d7bd88e8"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/picker/index.ts",
+      "bytes": 685,
+      "sha256": "5ad36c07e5eea98cef57065587c9dde6b20638bce3ffb0b3247b86fc9dda01f6"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/picker/model-picker-panel.test.ts",
+      "bytes": 5402,
+      "sha256": "520f0157538ce3a74f3da6fc030d4cc0505fb15fd341709aec9ae3ae8bcfd550"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/picker/model-picker-panel.ts",
+      "bytes": 5362,
+      "sha256": "5b6b454f12fa914514809efe921f19582a2c75ec122063cbe7d140efbe8db8c6"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/picker/model-picker.ts",
+      "bytes": 7856,
+      "sha256": "0f89c83e741380d238fa01198e53c2ffd7cd4cd5ca262e546b739faaf07e5819"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/picker/model-rows.test.ts",
+      "bytes": 4096,
+      "sha256": "519fbc67f7e06975553105f590c7a7ace3947b300a59e4f07ede15d60fae8e3e"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/picker/model-rows.ts",
+      "bytes": 3450,
+      "sha256": "a8ade9b0d833d6b427c11fe8768c5ed5995a5ac434e7632507592eeb0c9af15a"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/picker/voice-picker.ts",
+      "bytes": 2010,
+      "sha256": "f4ee8a4675d7d65893af36ac440d4437361968d8e048690e23e55e4cce30f826"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/runtime.ts",
+      "bytes": 1167,
+      "sha256": "34fd69d771a63a9a4fa16c804294653bda68be1bf1c2af1d4a633ce316b2d574"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/shortcuts-card.test.ts",
+      "bytes": 6744,
+      "sha256": "b3dfe5d37c5886efe9c0979259577b854880a3f998e974cc90c5e992c4dfd929"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/shortcuts-card.ts",
+      "bytes": 5013,
+      "sha256": "efc2afa3d11ba38cb3511b4fb9641d981443f3045905f2c6a20f1022d7d25f68"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/tip-layer.test.ts",
+      "bytes": 10408,
+      "sha256": "7e4c0e33c269fcf799f629407c1f8edeae896ec527483553c88433710a8f9e92"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/tip-layer.ts",
+      "bytes": 5199,
+      "sha256": "239590ab954fb438e40eaa7f4d89c65b6880f0228c498886a6408af378cdd508"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/ui.test.ts",
+      "bytes": 4396,
+      "sha256": "261306876d0c364c552c371d99addf10f8ff72c60d300f58148278404cee1de1"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/ui.ts",
+      "bytes": 7985,
+      "sha256": "d00cd5cebeed7f6ec1336270dab2cc58ebe231c6b7a9a0d6128f5f69dd9555ba"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/use-pet-list.test.ts",
+      "bytes": 1987,
+      "sha256": "0071f447f8a91ca46a199e4ff7dfcc6c1939fa1b01134ef22c73c5a526f027c0"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/use-pet-list.ts",
+      "bytes": 8417,
+      "sha256": "cdd1696f108657d7cd3da4b7729f52218ba10008f77a92404b331914d08f29dd"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/use-remote-data.ts",
+      "bytes": 1966,
+      "sha256": "fa9e57db72dbc18730c570ba407edb59201d745993a518fb2bf5833702708afe"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/settings/voice-card.ts",
+      "bytes": 3919,
+      "sha256": "345c25003c0354121be1db9042c2a35a2cb8d19643f9312ae0a7a59f469d2b6f"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/state-service.test.ts",
+      "bytes": 3682,
+      "sha256": "1bfc9389b7fd1c3e4811bb258b5e5ccdd4e3117b6159299f45be88908bec04d3"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/state-service.ts",
+      "bytes": 2097,
+      "sha256": "9e14ccbc44dbdb7f23a891e791b565b7c0dd50514109dad71eaec83481b22f3e"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/client/todo-bubble.ts",
+      "bytes": 2103,
+      "sha256": "4f570175b1a54eabd04c1308853d6f40803f4c9e73c9df1b599c8e04b1d675ac"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/anim.test.ts",
+      "bytes": 11100,
+      "sha256": "f3071d75c50b49c6a1eeea01218917d4c2767b50578e20e63468396f3415de67"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/anim.ts",
+      "bytes": 8487,
+      "sha256": "05380c918cf2ddd71d465ae99f482ef4bff5d1ce197fb9deadac1a3e410d1433"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/balance-timeout.test.ts",
+      "bytes": 3108,
+      "sha256": "c81e4c0078072675ef3d6c0327e62a92306b10e3f7f1b53fa9367ebaf817c19d"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/balance.test.ts",
+      "bytes": 27539,
+      "sha256": "f041b5f3708e06c95198b18ae60e562fe79cefb4dfdb6fd3386d86b34a1929ae"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/balance/deepseek-common.ts",
+      "bytes": 1830,
+      "sha256": "850b77f9190f1a25f8bec730c5c201c64900c0f705199e5d4a1459b17de5f6ec"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/balance/index.ts",
+      "bytes": 4533,
+      "sha256": "570946a38c243c6c8cec96463349d4b1634aba048421b7a629540cda82519272"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/balance/internal.ts",
+      "bytes": 4839,
+      "sha256": "9f3c53eabdf6535bad9d219393d8a47732324c8fa26a674963e379366812267b"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/balance/providers/commandcode.ts",
+      "bytes": 6369,
+      "sha256": "e2d215839b9ff1786c91a78b5ad5b4e003aaa7540dbe577b674553b7969abd1a"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/balance/providers/deepseek-account.ts",
+      "bytes": 4201,
+      "sha256": "be8af5c069914f20718222d9ef5a6b75add68d53a6ebef889acdb536d9fc897f"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/balance/providers/deepseek-official.ts",
+      "bytes": 1895,
+      "sha256": "2fc97140a7d71519902bcd2ac22aedd05480eb4e2a7feebc473ab4d2985b5969"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/balance/providers/opencode-go.ts",
+      "bytes": 2303,
+      "sha256": "65941db4e64647f685bc5c6aca731d972c68ac9e558d50289265d90187291de4"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/balance/registry.ts",
+      "bytes": 2806,
+      "sha256": "89d2c3d3562a9aff568a63d99487ab00ee4853a784570e9d54c4bc77e645920a"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/balance/types.ts",
+      "bytes": 7669,
+      "sha256": "bd246891d83d1938904f41ae6ee4c6a7107cb7d39cfaf25165d722970d560e23"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/broadcast.test.ts",
+      "bytes": 14788,
+      "sha256": "88b13910c5eadee09a96c51f7ef0bfda083278ca8617d16bebdf59ece6c15917"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/broadcast.ts",
+      "bytes": 7721,
+      "sha256": "a839a0f5e771f4233ba3e1cd0f19a0220d7c9d09db89f647952e5fc8f2275101"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/chat-action.test.ts",
+      "bytes": 5927,
+      "sha256": "cf285d86e49ae1c90da3e4716136c50dc368a09af2b8430bd427907eb1ed2d50"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/chat-action.ts",
+      "bytes": 3618,
+      "sha256": "04beab3e4fa549da8d427e7ee38583712b4bfaae137718dcabe07dfbefc43ae1"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/chat-history-stamp.test.ts",
+      "bytes": 4199,
+      "sha256": "519596c6202508849b8f59fa1b35864535c43e2de54ecf5c471fded0e2cbd14f"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/chat-memory.test.ts",
+      "bytes": 19938,
+      "sha256": "9c30b0f1894b79091b38004072425e5f3e5a902031a548c76ada50ca8d7f63a4"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/chat.test.ts",
+      "bytes": 5761,
+      "sha256": "ae8f1f8b6db6e319c5d6552ff34db6ad5c2661f9ee860110b4280128f19840e1"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/chat.ts",
+      "bytes": 12727,
+      "sha256": "b83a9cf675d54c4729cc4e575a4b956b980a5ab59bd25f40d77ed9b60051337a"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/config-concurrency.test.ts",
+      "bytes": 8537,
+      "sha256": "0ba41f0365bd98a34c108d4f7c654d4148cb3dfff4ccd9677916d6b3d0890a9b"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/config-save-errors.test.ts",
+      "bytes": 3798,
+      "sha256": "ca03976469c146a518185599af569554839c5916da035d444c844ce57ad09c9e"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/config.test.ts",
+      "bytes": 64480,
+      "sha256": "ad87adcdc626aeba0c28b15adbe8bd034d2be3ac7619e0915fd32466b41fe490"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/config.ts",
+      "bytes": 804,
+      "sha256": "d23c288003c0c8ab8a05c9bffa401fea3915d54d4a502cae506259a989c6dc76"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/config/constants.test.ts",
+      "bytes": 2069,
+      "sha256": "1417cf57b830762683d17f7932d5f5dbf90b48f2f9f1180b7eb5aaf51119a66f"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/config/constants.ts",
+      "bytes": 4291,
+      "sha256": "67b05890b468474e4f59de79355f1fc1346b2c3ea41f914f77d3f0d067fabc5d"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/config/jsonc.ts",
+      "bytes": 3201,
+      "sha256": "b985a228d34a5f8f165f30693462baf3eaaac2281e42bb7fb326c94c649e5bfd"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/config/merge.ts",
+      "bytes": 9354,
+      "sha256": "6280f5283ebe9c01294f6475b432a8a15176ca8c3c274aa9b731ac2e20f2a8d6"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/config/read.ts",
+      "bytes": 6016,
+      "sha256": "8392b9f0db7cc969c8b9e7ab6249db3889217f1431758ee072ed5c36e35f36cc"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/config/save.ts",
+      "bytes": 15487,
+      "sha256": "cdae869cf0c6a773fc16c1f89cb9c79cd23c1399c69e4363586dec3630ea02c5"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/config/validate.ts",
+      "bytes": 10332,
+      "sha256": "500dfe3177e4bf509fb4dbf8ebc47114925d857d085d9a60fa40ed36f43c15fa"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/context.test.ts",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/desktop-click-sound.test.ts",
+      "bytes": 3064,
+      "sha256": "810e83f37688c0f2bb6160d5e05e19ad2d943d52c0cf2c7af932fc945839d7b2"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/desktop-geometry.test.ts",
+      "bytes": 2595,
+      "sha256": "cf5661b7ffd145ef37b84b75a9d5c87f0983d99fad53fcb81617679ef3434655"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/desktop-main-wiring.test.ts",
+      "bytes": 4943,
+      "sha256": "3fddb29f6d329ffc6b4ddc9d7bde0ce81808bcd780a60e9cb827e15a5e3ca483"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/desktop-pets.test.ts",
+      "bytes": 5529,
+      "sha256": "375b1a218cac78b300c578f784ab4d27b85403bae9019ac65f987e93a445c1c6"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/desktop-reload.test.ts",
+      "bytes": 5320,
+      "sha256": "f7d12131781f195a2061e8563cbc7c44f6508cdef8796c853fa2e5398c391ad7"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/desktop-tray.test.ts",
+      "bytes": 6884,
+      "sha256": "88ffe9024951bb40527b295f8e9f43acf2c70d93a6ede7c941c921be8738b564"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/dpi-linearization.test.ts",
+      "bytes": 9513,
+      "sha256": "cb432e5f5fd4f1110cdbc61f71955a5b35c76f3dc30c348240e4533cab413dab"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/helper-process.test.ts",
+      "bytes": 27255,
+      "sha256": "71dbff40e56968ae135961e0cbf079bd739b896e14103fac152d842dbbe93124"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/helper-process.ts",
+      "bytes": 1123,
+      "sha256": "251756851bb77dd37f4548233b13f9c97b96b0e0d28f19346b0a5cf6bad3e218"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/helper/bridge.ts",
+      "bytes": 1328,
+      "sha256": "fe3af6a5bea045022e5232ae7c5e836c9cdeec99b1b6cb9e922a4bbb287060de"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/helper/child.ts",
+      "bytes": 17290,
+      "sha256": "31a18f6e9c80a8e0ede23266d0b80fe111b6d993a894abf9c6a21d56dd32b9db"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/helper/electron.test.ts",
+      "bytes": 1203,
+      "sha256": "280ccf85978786c25b141ba82f62007f9ce544608d123a842c09d1f7a478808f"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/helper/electron.ts",
+      "bytes": 14194,
+      "sha256": "0eddf1cb9b4867dd23f6821d25f75e0b642947d1976bcfbd637bfacad9c0c029"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/helper/restart.ts",
+      "bytes": 8090,
+      "sha256": "42c2e66378ad46d45fd8de26a90559d403c5fe3026d7bca5061f4893071f19d2"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/host-liveness.test.ts",
+      "bytes": 9263,
+      "sha256": "68f4b9e0eb6336e0b9bb8305721c687f3860e0b145b95776e67393babc6bd5db"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/http.test.ts",
+      "bytes": 8241,
+      "sha256": "af8e1ace6e14a0aa00f5f44a4a5046d50aedf60c615618c555b1e84c3455533b"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/http.ts",
+      "bytes": 11300,
+      "sha256": "a822984ed907db680d13f22caa7f01cf490541528c98d6d234a1c6ba75aa4565"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/image-attachment.test.ts",
+      "bytes": 3450,
+      "sha256": "0a1b905b9e870fc61597b5cf69292d5195da7f13cd6adabbd1ecfb9361bbfb3e"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/image-attachment.ts",
+      "bytes": 3730,
+      "sha256": "f6d34200dae987880e5fe3f104d1e08b6f445c4c920216387ac1dfe7b06b4a43"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/index.ts",
+      "bytes": 6841,
+      "sha256": "b90aa87a95a6f151acbc12cd95255df1a7aac031ce9b52f74c235786ccb0b7ee"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/llm-call.ts",
+      "bytes": 1602,
+      "sha256": "809d1fc64c4ee0078aa169d4a8116587cc8d4bef5c9cbe6426d94fc666d52079"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/llm-reasoning.ts",
+      "bytes": 1594,
+      "sha256": "d955d7d6d25177107837c7e93edc0320bc33e9e69edc8c54584880226d02dac5"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/lock.test.ts",
+      "bytes": 15607,
+      "sha256": "acc837963398f173e4e8e9efcfad4e6f9c1c5bc8c11cb5856f355c14efe70fd9"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/lock.ts",
+      "bytes": 13679,
+      "sha256": "5a9ff1df23a9b47a5bd464d996fb514da845f23328adfec9445cb3dd0761b05c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/log-file.test.ts",
+      "bytes": 9160,
+      "sha256": "e2df6a9d2e1586145b1bbbbd54396f6dfa6194ddcac14f56c34a29bcfd4b94e1"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/log-file.ts",
+      "bytes": 12098,
+      "sha256": "1160ffb82b27770604cb90716f4433e46af48ed5da993b324541eb77089c1e82"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/memes.test.ts",
+      "bytes": 8867,
+      "sha256": "79871028b17f575762853c4b8f9fa4a1f9016fc058c4ae5159d43b49be3fe802"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/memes.ts",
+      "bytes": 4626,
+      "sha256": "c3ce99323d5c28dfa297d31cb9366128ca8099e34eecc415d5288f7f5fa4e4ce"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/menu.ts",
+      "bytes": 10668,
+      "sha256": "b9163dda9aae420599670440bcc2cb82b3609f8d6c570c8533e333eb838700e0"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/model-fallback.test.ts",
+      "bytes": 9147,
+      "sha256": "932d82e35092921483840dbd4b122f496154305993c9ae7d49814e57ba222a72"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/model-selection.test.ts",
+      "bytes": 5450,
+      "sha256": "53731cf58518317855c7d54c2c0d75511899fbf3870b7bfd99ad6754d5f8a267"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/model-selection.ts",
+      "bytes": 2751,
+      "sha256": "29939b01bd843d6a7c88eaaebb08f9df66e244625a35ed27504340548b3486c7"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/motion-cue.test.ts",
+      "bytes": 8688,
+      "sha256": "8e4c51b5a8ead72d9628d5fcf2506fa440ae9ce8f59065a47567194aa43e91a5"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/motion-cue.ts",
+      "bytes": 7020,
+      "sha256": "31c620d387a637ed384f97e835cf34a489d21ad8d110e5890bf51498fc2d2864"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/notify-events.test.ts",
+      "bytes": 13930,
+      "sha256": "1bd2edc5ea2433f2dc7cf0cfbadfbf3b22769da24edc9f0bf4f2c43a2637d89c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/notify-events.ts",
+      "bytes": 9448,
+      "sha256": "158b809d10efdf141b6a66e770dc7d4bb3b0a279762447922a45a1c6e46c6df3"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/open-target.test.ts",
+      "bytes": 6332,
+      "sha256": "340a4107331c0dd9787034eaae79ad941b15fec71115e468ee761c3cc15f93d6"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/paths.ts",
+      "bytes": 883,
+      "sha256": "f7e43a8c9256a08e48335e13035b1fb6f5bdf51e77ce3b0e474a48bca4262b31"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/persona.test.ts",
+      "bytes": 6077,
+      "sha256": "7f9e4c8da0a13d0899e9dab4398700053b20aefc634514e59ee3de6286df5241"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/persona.ts",
+      "bytes": 3731,
+      "sha256": "194a3cc444d2f375fc09083402ab98bb4e7d2dbfb67b1e88afa4321cd64809a9"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/pet-avatar.test.ts",
+      "bytes": 3652,
+      "sha256": "7876588f5ae1986d3749705bc7885bcd25d39b96202a41ed7c6d6f70d9c87404"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/pet-avatar.ts",
+      "bytes": 3771,
+      "sha256": "10ed94a0a9a0b80db60f07a6afc1f33a03320e08fa94f282d413ee6e7187fd1e"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/playback.test.ts",
+      "bytes": 19140,
+      "sha256": "bb127dde2cec8b68ebb392fe782a2e9a85c81a155a9f8f50a49db611f90b74e6"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/playback.ts",
+      "bytes": 775,
+      "sha256": "7af0354a2ea2555280c7d4cf6567c6da32025f173c24f51967ce92f8d2ecb83a"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/playback/parse.ts",
+      "bytes": 2863,
+      "sha256": "10624bb8aeb2007691fd0bf018c5297443af1b773bf35fd8385507a2b9be560c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/playback/status.ts",
+      "bytes": 1617,
+      "sha256": "6e633dda3d6357ab764193b119d63d025a26c51b5ee3d336332b2f28a09bdea7"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/playback/store.ts",
+      "bytes": 9732,
+      "sha256": "75848ebbf623f0aac9b1be06e9a5a27cd378cab582de16262bc87ef88cadffd0"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/balance-poll.ts",
+      "bytes": 7332,
+      "sha256": "177a861ade2acd25490564e3ccbfab0d80ce4d8bbc952f30aea94e5fba758a3e"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/chat-memory.ts",
+      "bytes": 20686,
+      "sha256": "fdadeb763290925e4e07975fe73ffaf25f2b3a6d3ccbeed6a45126e95829a1b2"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/command-balance.ts",
+      "bytes": 2009,
+      "sha256": "3b506fd7cc54238fdfb06da038b608844f50099478a9a0e061af919cfe7c1017"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/command-chat.ts",
+      "bytes": 3132,
+      "sha256": "cd92f0f33c0444e7a4aefe0b1438d32388878e0fb362fee8a6b9b094f312ce03"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/command-pet.ts",
+      "bytes": 3058,
+      "sha256": "077781a046282fdeca9f4a839afa95d41b4943cf1d1e2b70fd77f8fc88b72733"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/context.ts",
+      "bytes": 970,
+      "sha256": "2b32a0d29012be74b8c912cef02bdeb953ff11b93a1506eeaa4f0335b5e01ab2"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/desktop-helper.ts",
+      "bytes": 1411,
+      "sha256": "70816db1ef964307cf8013ae15e6e71c49eeca15c5ccce64fd406e05b3b3d2dc"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/desktop/bridge-response.test.ts",
+      "bytes": 2554,
+      "sha256": "f7fad2492d7475e18a38b6790ff7056fab5c66631fbd08b7681085fe44334e37"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/desktop/bridge-response.ts",
+      "bytes": 1804,
+      "sha256": "4dd358c8931a82a0905e25daddc39d3781b485dd45ecf3033176cec4d7bf1388"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/desktop/pets.ts",
+      "bytes": 3990,
+      "sha256": "48fcf7b13bd5263079642539cf71b04130fb9798d2243df8bb0a1e6cb4e4bea2"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/desktop/spawn.ts",
+      "bytes": 11475,
+      "sha256": "d921d5741a9c587c1dc7505d39938d2386f90519f44745b03fc45c37674e42e2"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/desktop/sync.ts",
+      "bytes": 2560,
+      "sha256": "95ccfa5240fcb2d448c690190b644f1d1d23e12a647e2eca75bb418225aa32a6"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/desktop/types.ts",
+      "bytes": 1165,
+      "sha256": "bb793be8a0e961af19ceb1faf98209edc56f8e282a228a1a396b05319b61990a"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/download-report.ts",
+      "bytes": 2935,
+      "sha256": "4215fae2aff27bf89c4bf052a9f2ad1d3d6174c547e418d9411bec110951897b"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/http-route.ts",
+      "bytes": 6014,
+      "sha256": "73428ebf2a2e8fd5cbe4489ce1ea16df47f2f447afa0e9f42f97cdfebb3bcb80"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/lifecycle.ts",
+      "bytes": 2142,
+      "sha256": "fde04c59e9ff30863f3363701ab06477dc5cd3665c1c565254febe8c38015fd1"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/loops.ts",
+      "bytes": 13169,
+      "sha256": "82a0bbc375647476fb95340f06a653d01b27b20f116c6d35161afbf012bb3c59"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/memory-orphans.test.ts",
+      "bytes": 4545,
+      "sha256": "3bb8bf9d5bf37c39fafff9a5d3eda53fa8ff829857ce3ac3961660c1c07ca81d"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/memory-orphans.ts",
+      "bytes": 3258,
+      "sha256": "415091fb97772183c941dad7592cf94d76e3a0104dd2ee103f706d0a2eb210dc"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/pet-lookup.test.ts",
+      "bytes": 3172,
+      "sha256": "6f8386ecca5db849e59e2e973f11b72568898ec3860003d3fb6b9ac97cda932f"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/pet-lookup.ts",
+      "bytes": 8778,
+      "sha256": "fa1ec7e649283700ee57ba940724a151e0200bff68bdc70ba7286a3a94553a91"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/session-notify.test.ts",
+      "bytes": 3669,
+      "sha256": "5054f51663ee0f1b5dbb3904041baf2d6ab6925b426242511df5908c0f10edcf"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/session-notify.ts",
+      "bytes": 7468,
+      "sha256": "41fcb54fdcb13edb83706397ae3baf5d891db48ea577e99ef76f7f0666055e7b"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/session-watch.ts",
+      "bytes": 16536,
+      "sha256": "79b359a5f9205761a7127830c3125761041b1048a33772e37c3b1fcb6b044a9c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/setup.ts",
+      "bytes": 11801,
+      "sha256": "11c03b2ba56286ba369443fb8dd1b6d0f9438c7477aa56640fc152265791cd05"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/todo-reminders.test.ts",
+      "bytes": 6945,
+      "sha256": "839eb310cfb3b6f5ff923353d516ca5377f60b1beeff4776a153697f48bc4b88"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/todo-reminders.ts",
+      "bytes": 6923,
+      "sha256": "74ce1649b44dfc7400a74352685d27b2e192e42fd0d724dee1565842b7ead068"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/plugin/work-status-bridge.ts",
+      "bytes": 3316,
+      "sha256": "127d0176070c5ee97410edfd68e0781a565128c7e87e3522747d3726c63862e9"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/pointer-target.test.ts",
+      "bytes": 20033,
+      "sha256": "2060904c8dfc8456a730c7ef7fe064910a24cdb42650416be96ce7fe0573e86a"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/pose.test.ts",
+      "bytes": 3014,
+      "sha256": "feb878836e3ce68e5836983cec9c832084c9c2823ab52c35cb386259e6a14fc6"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/pose.ts",
+      "bytes": 3925,
+      "sha256": "2dadc06f93bf86bca8fa1ec3904c463d343905206c3a57579fc96271bed28561"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/quit-route.test.ts",
+      "bytes": 9057,
+      "sha256": "a59195085dd024edd02e693120ed5443d9c709b2dae36ad59d7481bc3318e0e8"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes.test.ts",
+      "bytes": 45453,
+      "sha256": "63f8b06262b662043e9e513c7b68d34b49dfe5e75c0b0485d90a060c2dda3471"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/assets.test.ts",
+      "bytes": 3510,
+      "sha256": "6e9dcb1a1cedf4de404d1c5e53775cde91ad730a8b987cd3b400e715c8d23f21"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/assets.ts",
+      "bytes": 9018,
+      "sha256": "848578d42746df8bf3864e8ed503d35a4c870600362f1a8a04f925b46362c0d0"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/attachment.test.ts",
+      "bytes": 5982,
+      "sha256": "864aee7a5e78dc3f286bf75aa761353a5bb693c211bc5b28defa03c5c004d296"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/attachment.ts",
+      "bytes": 3241,
+      "sha256": "461f0380b972793de2bfa7e32de6dfc5023b9979f008d10e47fa079c3857f7e4"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/avatar.test.ts",
+      "bytes": 5239,
+      "sha256": "4b91528e952a36662beb195da2e527f0033e3835a38a7b3c1c8af199f2bd6cdf"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/avatar.ts",
+      "bytes": 3632,
+      "sha256": "9af1a60eb855ba69f6162cf78277e0229639dbde67d12197b400f669d7d4c64c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/balance.ts",
+      "bytes": 1310,
+      "sha256": "aa889d6c23236e6aec76a6b380a9c73ec6f17e0f7364a5a4e698fa92cf235b65"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/chat-delete.test.ts",
+      "bytes": 5493,
+      "sha256": "b3e5e6b0c4e7941f016ddbd409fcaa8a38bd60265f765c4839156368f980f03e"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/chat-image.test.ts",
+      "bytes": 7485,
+      "sha256": "da95356358a13e273eb548592313997965d65fc2a5729b6a6a7b2226e9dfe6c8"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/chat.ts",
+      "bytes": 8998,
+      "sha256": "b33435b6f7da5c045e77b0ac130d8dbc1e96b1c49e2ba2408645bf07045b2092"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/config/display.ts",
+      "bytes": 5488,
+      "sha256": "6227e3864b8c7cb62b3ebac715b4c5584a2b8ba14abeb31da0629c2ccafd7047"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/config/entry.test.ts",
+      "bytes": 8210,
+      "sha256": "782dede2d3dc9e185ecd8b7fe557828d1e670cd6791694077c715289d402a5ba"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/config/entry.ts",
+      "bytes": 5577,
+      "sha256": "bb9ed901d7fc915264398d6280c39b033c6b567c9b7e3237232a693fda4e0ed0"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/config/index.ts",
+      "bytes": 4146,
+      "sha256": "7a943d99d5631b83198b45eaeea6a7eedd32539392ba65c23822897d121925d6"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/config/layer.ts",
+      "bytes": 1925,
+      "sha256": "e606a4f9f0be374ffd3a16ae9f1f709d671f4526e9415ba084b1a08f577002f2"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/config/save.ts",
+      "bytes": 4893,
+      "sha256": "d1c155e1fb58e7565ad86509b6bf2976de0c6774176c4370ef81ae95647e1ffb"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/desktop.ts",
+      "bytes": 2923,
+      "sha256": "278ce09a45b0141184ca587082743e75142cb942075808ea93ae8e00f6c745ee"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/index.ts",
+      "bytes": 3915,
+      "sha256": "b82b249a17f1da7e235e235fe889fe78afc2d0d33aa8ece7e7ab62f6336a4e98"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/interaction.test.ts",
+      "bytes": 3842,
+      "sha256": "2f32fa683fe5450e8f34504b6d5dc4ab360ccfb24798d856a0219016b87e84fc"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/interaction.ts",
+      "bytes": 10521,
+      "sha256": "2052ed24b5ed130d1f9c065c8ad1997310ccd565b8bcd244640d05eea62053eb"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/menu.ts",
+      "bytes": 3239,
+      "sha256": "0df9d238c346c0d57b6491bc3680ed056a45205ccfe1772587a862ef3c982890"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/motion.ts",
+      "bytes": 8593,
+      "sha256": "29c1b26661991feaa90ae313759d23e121b786bec815e9c4e9075ad20f167b7b"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/playback.ts",
+      "bytes": 4896,
+      "sha256": "6944d6763f423f493a4e96fe45e548ef13e764c12ba9c76bd6bd0849a276d92c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/result.test.ts",
+      "bytes": 2284,
+      "sha256": "2594190ca1e859dbf532fc3e2d04df8727b679ecf72b2b484e4f49c90f52414c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/result.ts",
+      "bytes": 3915,
+      "sha256": "69f47d8bce053c2d291a4657c5f2d44992baeeb1737376cda1a59ee007a56398"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/session.test.ts",
+      "bytes": 4877,
+      "sha256": "a009d3f1ce148bf902d480e34adabaefe16118c8c6a467d34025c547275fefd0"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/session.ts",
+      "bytes": 2333,
+      "sha256": "7e0a9b87db2578f9017629d8f91aa13faed3e1a878bfaf42088cbee12b249388"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/sleep.ts",
+      "bytes": 3306,
+      "sha256": "947fe7b282613252ec378bc63fa52185cbcaccb8ade1be0b378f2429acf1b8f8"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/state.ts",
+      "bytes": 7861,
+      "sha256": "0a6e42fe92ce22ae21ccbcc4a921d4cf0e0a0e591d6f0c79660aba4376a58832"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/todos.test.ts",
+      "bytes": 6917,
+      "sha256": "b721da0c3eab9cd88052957528b6930dc6a31e2e09cfd797af6f64234d7b4cb5"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/todos.ts",
+      "bytes": 4610,
+      "sha256": "6e77d761b79896c2815fece8bc2ab2293ffae140b8824da02cb9da502b30bec9"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/types.ts",
+      "bytes": 7856,
+      "sha256": "d8991d35bdccb67b9de7c685bc6381e599cc8f85bf623d90185d161f49bd49d9"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/voice.test.ts",
+      "bytes": 5283,
+      "sha256": "0521a97085e864d21b522c64ea26bb73b07b6cade2ce01cf22917c5db7b00207"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/routes/voice.ts",
+      "bytes": 1866,
+      "sha256": "252f35b11a38c2d28e772ada38fac0f68e4e7cb37d82dfe5442f0dd128a9d0c5"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/sleep.test.ts",
+      "bytes": 4924,
+      "sha256": "3b7a392ac6f12ffa7274bdb8fc0a704225abbf96752d0d48a816c5157ed9ed8e"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/sleep.ts",
+      "bytes": 6450,
+      "sha256": "1f3a467984eed8c105fbdbd6b82215cc724c261b41bf6c74dafb14f123349f71"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/state.test.ts",
+      "bytes": 14990,
+      "sha256": "c9b5889b52783c16f0348ee4a5da0c303ce8500d2278d1701b282b6af9c8e5df"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/state.ts",
+      "bytes": 10406,
+      "sha256": "159f3bf0024d8bf2914f1e7c478f76788122dad58ce48d08d8ac8c7ce7d0d05f"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/storage-paths.test.ts",
+      "bytes": 6540,
+      "sha256": "35bff8da9a826bfc4714fe58791ca2449e21c00b3da277edbc8433845e45edc1"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/storage-paths.ts",
+      "bytes": 5151,
+      "sha256": "5de46895226e7b446a5c768de26e45f002a9b7711a7149352c8acea313861872"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/surface.test.ts",
+      "bytes": 4147,
+      "sha256": "b5dfc88581bd2f9d9fde968e26c3c4a42c50b0e999e6177bd423dee7145bcfcd"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/surface.ts",
+      "bytes": 4001,
+      "sha256": "9de33b6b9121b421695351b57bc735c65bc0dabd07794f830aaac0ffcc87625f"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/taskbar-watchdog.test.ts",
+      "bytes": 2754,
+      "sha256": "16d520f2a138cf831148af67879231ba16447e8bb3def11c07e05e8597b0ae1e"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/time-context.test.ts",
+      "bytes": 16127,
+      "sha256": "03143c4b52dc411b3d0f5b0973f8890f693fb37abe4c38c0a1b389b2a04933a4"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/time-context.ts",
+      "bytes": 562,
+      "sha256": "5ad1aac855e73de49c667419b8ab6c0a7994f932355db8f8170e76f8c228b814"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/time-context/constants.ts",
+      "bytes": 2790,
+      "sha256": "ce55cf789ff73a984a683ed911d9032e023150d0d6f7a885d25b6eb0af51a881"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/time-context/context.ts",
+      "bytes": 6509,
+      "sha256": "769335b3b83ee218d99681fd89ac610913c5e9ef02847a0551f2238c8172216b"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/time-context/entries.ts",
+      "bytes": 5741,
+      "sha256": "c67c2fc4b907db38e9226b9d6c2709a857fe5914a3f91b8652d320612aa03d21"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/time-context/lunar.ts",
+      "bytes": 4592,
+      "sha256": "164b1d13ee7479aed5945e6fee506b11f2d0dd153cb64d747e593d5629b9dd1c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/todo/policy.test.ts",
+      "bytes": 7967,
+      "sha256": "f848dc779d4c95b8614a9c0ac9d455f5cce1685680b6f70294d7adcd665e7c57"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/todo/policy.ts",
+      "bytes": 6656,
+      "sha256": "0b5c15943f0972640a6fd2a3bf7171fb8edfd350cdf8cd848ae21ea634a0f96f"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/todo/store.test.ts",
+      "bytes": 7189,
+      "sha256": "966e6b833b73258af452e5a421e3d68624529458238ff40f520406d977517709"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/todo/store.ts",
+      "bytes": 6901,
+      "sha256": "e7ead25f1bf9dc7f1bbdb34aca171629133c439be58b5fdc7fb1f0a3ff0eaf64"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/todo/types.ts",
+      "bytes": 5701,
+      "sha256": "d3824301494a11bfae65ca4f16a7e8e686c82090df936a98a2db73b60b1f6fe0"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/tool-detail.test.ts",
+      "bytes": 11844,
+      "sha256": "a96aa66fddbc548d80874c5c6b2b7e47e7e92fcb175510e7915836bebcd1e2a9"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/tool-detail.ts",
+      "bytes": 370,
+      "sha256": "93d278f29ea343d2d2e5689e47567ae34a491c791e3f178ea8e73560a36eb64b"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/tool-detail/copy.ts",
+      "bytes": 9197,
+      "sha256": "7c77ffed9f6e7f57644088b390697ef25e7da1462338d4b1043f556b76fb5bac"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/tool-detail/detail.ts",
+      "bytes": 4253,
+      "sha256": "2bfbf0a7c39cc07cb6a13e5086c49f40e19a968c1f6f7050811c2e8c2f0f74b7"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/tool-detail/target.ts",
+      "bytes": 7764,
+      "sha256": "cc22e991f4137ea413598d28386dc27a8a99b3d2855a0e2992075ec37b0333b0"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/topmost-watchdog.test.ts",
+      "bytes": 8383,
+      "sha256": "6f0cc6ac19f88ab89b34ab84ece18e6fbb7b1f9a2cdd9917660ddc17f4204319"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/voice/cache.test.ts",
+      "bytes": 2744,
+      "sha256": "114d8457c60adf8df81c5c0416bd75b0a11ea13df5faf41150a5fee43260fff2"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/voice/cache.ts",
+      "bytes": 3513,
+      "sha256": "c7ba8784c210e29953efa28fd209d765e72c1743d88e6909d77516b3799387ca"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/voice/edge.ts",
+      "bytes": 3430,
+      "sha256": "c3baf181fe8faf19964f1cb3cb2ab745429609a05a76818f32328455766ec0ba"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/voice/hear.test.ts",
+      "bytes": 9717,
+      "sha256": "8f047a2411976ef2ef6df15bd3f018e40430db9824f2268431790bc649354faa"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/voice/hear.ts",
+      "bytes": 7451,
+      "sha256": "152619e30a246abd2b0a5ce2d6fe0fd6bbf1e0f5b9237294dcbd8e9ed47dd9e3"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/voice/registry.test.ts",
+      "bytes": 2595,
+      "sha256": "c5dddc60c11be2b66fd1542510b185cbcd71f01851a9c7254f3b3537735537a0"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/voice/registry.ts",
+      "bytes": 3069,
+      "sha256": "1197f2c2f63c6c70d45aa89783d73be72af5f71e077f1051d3f472b7a561b23a"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/voice/speak.test.ts",
+      "bytes": 8272,
+      "sha256": "af33d90fa11855b768bca95986d5d4257cd1293c7f29254aa610ee306a2cf6d5"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/voice/speak.ts",
+      "bytes": 10500,
+      "sha256": "84c61cbb5bc89bf9a57a71df4ec32415d3e2897cd39e4a2f5930845954c1dd83"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/voice/speech-registry.test.ts",
+      "bytes": 2596,
+      "sha256": "2eea7f8212d3136aad48998d4557247b838225de9129ce3d61529dced8b79a4b"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/voice/speech-registry.ts",
+      "bytes": 3240,
+      "sha256": "64cc9a701f5c27bf6c3f4beb9b80c3ab8f43d3b0d09beb6be2e2f912c2b10991"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/voice/voices.test.ts",
+      "bytes": 901,
+      "sha256": "54d193fb93e86262c9dd807382b468b02683212d7ef21877445aca4d5408d145"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/voice/voices.ts",
+      "bytes": 1494,
+      "sha256": "d0dc68a5573fcbf2b88e040cdf6f76a1e7e027412c35854556bf199dc878528c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/whisper-policy.test.ts",
+      "bytes": 1242,
+      "sha256": "c6344a7bc720ba54040eb8d40f10211cdfdf0e1264df64451793a671de77b4df"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/whisper-policy.ts",
+      "bytes": 971,
+      "sha256": "5e5710f7079db1e65a1336a39ad1ce0ad70b4d7595281b8d5f12346b9da0d46e"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/whisper.ts",
+      "bytes": 7868,
+      "sha256": "dd66972506975d6f8515a5e0b76ef628ee237dfd85e001b3d912a9fb14de8f31"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/work-status-lifecycle.test.ts",
+      "bytes": 17936,
+      "sha256": "44c8b80fbc96a959289a5b83c31cb0c1681895b46d522b668932c7bb6e093e1d"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/work-status.test.ts",
+      "bytes": 10958,
+      "sha256": "5baaf70c4c9d6053b2c5a0b783f90aa2713f00672d17c71420d996338dee21a4"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/host/work-status.ts",
+      "bytes": 11784,
+      "sha256": "59517a24676d7688f92506ab1c12ee9ddf1d84b2362d703241c9e42158a1ddb6"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/avatar.test.ts",
+      "bytes": 1563,
+      "sha256": "dc60fc3a06feb626fca36ccdd697b727350debf464aaf3e841b41a0cc1b088a4"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/avatar.ts",
+      "bytes": 1387,
+      "sha256": "39a5e215361954e25490cbdec19f8a65905e7d9bf0e7e19ecb67e7783364dfa7"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/balance.test.ts",
+      "bytes": 33528,
+      "sha256": "c46ac7e28f1d6300b4832d00378f3796e37f1e3796596e042ea44b1b0c622480"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/balance/handlers/custom.ts",
+      "bytes": 1050,
+      "sha256": "5ea7547a5a64339b28daf51bea9041c03ceb8220738d861d5980dbaf70093b5d"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/balance/handlers/index.ts",
+      "bytes": 914,
+      "sha256": "f3ddc1e0d743b5c116bf40328917cdea8f4062c1d7ad53230e7fcd4e848f1338"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/balance/handlers/money.ts",
+      "bytes": 2298,
+      "sha256": "14c2c64369ca094416c3591224b0fb9a5ce89dedf059d84a5d4924433e928963"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/balance/handlers/points.ts",
+      "bytes": 1570,
+      "sha256": "e55110354032386d007566c921088db9e782f1540ae28d37e3ab1a4444b3953c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/balance/handlers/shape.ts",
+      "bytes": 1241,
+      "sha256": "7424be6010efec63434cf0536bfd8977755b1d0e84e22f2b5a09dd9239be0adb"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/balance/handlers/windows.ts",
+      "bytes": 7772,
+      "sha256": "5679c7289e2c9c3f41abaeb271e1c95a3471af86a4f4e0863a0f76afac1f4904"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/balance/index.ts",
+      "bytes": 743,
+      "sha256": "82c2d113f5f3744e9b62510843dfaaae1aef134ccd34f46bca921f2cfa8d55ad"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/balance/notice.ts",
+      "bytes": 1341,
+      "sha256": "2370512913f9cf4b361e22802e1e833e1859ff3096ffb6bdc37cfa1d26457637"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/balance/parse.ts",
+      "bytes": 12819,
+      "sha256": "c8d478c82b07ff943db0769148d828ab03fd76a5dcfcc9642e9b10f02738cfb0"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/balance/percent.ts",
+      "bytes": 1159,
+      "sha256": "17d525abe840425bdac0fb94241c7010b796aeb8f08aa6137f326861358ada32"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/balance/tone.ts",
+      "bytes": 691,
+      "sha256": "b65325e25d2ccc561285116c268bd232bd28a56cd9ea8ebb64bf496e76436562"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/balance/types.ts",
+      "bytes": 8748,
+      "sha256": "00369c1b988ad79aa44e6f03aa6bf1cf66cdd0ddd6cfd3a4a4feeb856122b44c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/balance/view.ts",
+      "bytes": 4774,
+      "sha256": "43e4ad2eefb7559ffd370c814d7fede6cf78bdc3eae5c4fe6789705f1b039b00"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/bubble-hold.test.ts",
+      "bytes": 3131,
+      "sha256": "e06fcb9a855e5929f410cf64a57247766a9380766aceb3854737101d937fd4de"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/bubble-hold.ts",
+      "bytes": 2833,
+      "sha256": "9cf254bf190ed0dbdc49b3fdd13f75d71126260c5c4fdc32c40c1c86ae8927fc"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/chat/capture.ts",
+      "bytes": 1607,
+      "sha256": "dd69b44e3ad62fad0ab0906e04a188c0f22d83560ab5904c133afb671f7898ed"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/chat/dialog.ts",
+      "bytes": 8624,
+      "sha256": "f7028f80a551d803831826176eb9481ed647018fe5bcb6f5c4d481a28f19a29c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/chat/dom.ts",
+      "bytes": 9593,
+      "sha256": "22032fcac46b512c629e20c3b807bd1c327736a6be4006387eef649429ba3148"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/chat/encode.test.ts",
+      "bytes": 1849,
+      "sha256": "3113649de4369d6104001f1ee44e759c849aa91f91e14efcb1f3fb8f58a71c7e"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/chat/encode.ts",
+      "bytes": 6540,
+      "sha256": "6015862e92b3bc8653f6cef505fe17e27e577529630c6377a38280c9974ec8de"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/chat/hear-control.ts",
+      "bytes": 8871,
+      "sha256": "97d6faa7e91b5535641552e4dc35206a5366ce637d61735f5df5010dce8b5c24"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/chat/hear-hold.test.ts",
+      "bytes": 5951,
+      "sha256": "9a5369b1762977c186975d64f785b5e7c6d540873e5a7d499ce1dbc0e374253f"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/chat/hear-hold.ts",
+      "bytes": 3365,
+      "sha256": "ea869ee484d564eb3833f8cb018cc4c07487a3f3737d00801bb6711717a57355"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/chat/hotkey.test.ts",
+      "bytes": 3507,
+      "sha256": "8cef91e425ac8099c91a7cad3bbc3123483575800feabf29736ef849bbffe35d"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/chat/hotkey.ts",
+      "bytes": 1219,
+      "sha256": "bfd0764e173af9429316ac3c7859fe65b6dea17415d01290305511d4c9272349"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/chat/icons.ts",
+      "bytes": 2222,
+      "sha256": "7d1b5203c837f9ee244bbbe7fe3d6b13ed372f67ad7734cad3d5deeffdf71539"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/chat/image-pick.test.ts",
+      "bytes": 3434,
+      "sha256": "544eeda9729dfe1f194e37b777072728509eba74189cdf863686982265064889"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/chat/image-pick.ts",
+      "bytes": 3693,
+      "sha256": "3c4c3b6787a3e9a6f582e97ef70df615cc3e592c918fcf68fb9972c66806115b"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/chat/index.ts",
+      "bytes": 968,
+      "sha256": "ea30a76f0c4f5eedc79d16b751e96b96b2faf9148563fad9a2b15d1a9bfc8c17"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/chat/send.test.ts",
+      "bytes": 3285,
+      "sha256": "6b3a18ede0cdbad49d9e51f8874f487f985ed34ca02efc0afef8dc02517bf299"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/chat/send.ts",
+      "bytes": 2213,
+      "sha256": "df94ba2cf2e92f226dfe332ac16dd115e854e30013b320ed126beb16c08a45cb"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/chat/styles.ts",
+      "bytes": 4427,
+      "sha256": "d2842e53f1541abc177290ad08f6d6298b09f47616a5b1baaf3ba5edbaba932d"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/config.test.ts",
+      "bytes": 13250,
+      "sha256": "084a5f9323fccf6df007d9b732727c34ac6e640fe2516eddb3da9f566bb81383"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/config.ts",
+      "bytes": 3304,
+      "sha256": "f51e0e1bf763adea958d571f1c0971f06249ecdfaa2df28360555ec35d55527b"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/constants.test.ts",
+      "bytes": 3139,
+      "sha256": "f824c7fc70ed760ae17045254b6146c44ca894d5a2267d1a6cbe8f65e7317dc0"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/constants.ts",
+      "bytes": 3494,
+      "sha256": "bd9a2e565b78c4e2b195ec682503d45787601fc20a0bc483a43426ac5200d687"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/display-hotkey.test.ts",
+      "bytes": 2259,
+      "sha256": "57528eb44af027db36f9812b569e456c9b2de2bf7aafa6066d3c5b09c7139158"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/display-hotkey.ts",
+      "bytes": 1375,
+      "sha256": "ee1366145e70c587b5bea02750f27d77b1eb21365f8ac7e5958d1bc519beda19"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/displays.test.ts",
+      "bytes": 24246,
+      "sha256": "9cb00936ad71c5b94fef565b5e4b2f9e25f7603ba1d699beed19a3cd98ef7179"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/displays.ts",
+      "bytes": 5178,
+      "sha256": "192349d66bde39f95d7106b6db6ce788beb656badd867f892b91794b54118b98"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/focus-session.test.ts",
+      "bytes": 1847,
+      "sha256": "d026079303896cdebf504838a56288cfb450c3d53cac93d30471ecfc2aa65463"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/focus-session.ts",
+      "bytes": 1667,
+      "sha256": "19dbfcd4ce1e9275912522e60290aba9a26fa2bf936d28e5e4ae3a6422e2fec7"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/fonts.ts",
+      "bytes": 5696,
+      "sha256": "39b3420358ee40b21c00b8f1e47d41fb4829459d0909fa391f9ba734915ebe90"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/hear.test.ts",
+      "bytes": 7716,
+      "sha256": "4789e97ba9fd03063da21028f72e74e49d46a9d9715881a9a5422646cd91afa2"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/hear.ts",
+      "bytes": 10216,
+      "sha256": "aaafbbf32b218aef9d26c5a65fe6449b0a235a41ac753035e8d4c9acb307bde2"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/hotkey.test.ts",
+      "bytes": 2352,
+      "sha256": "461886a6b86a30fdc280f3c68c09278b4496698b44ae795e4dab49014d22d550"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/hotkey.ts",
+      "bytes": 1545,
+      "sha256": "5a13375410b850c869976b3397773c759b9b920173d1fa5f515cedecd43c770f"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/index.ts",
+      "bytes": 1445,
+      "sha256": "c8cda14c8031619bd4a163dafdc3c44b94f52888c9af348de441dd2e82ecb179"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/menu.ts",
+      "bytes": 799,
+      "sha256": "5327100db33c36097af5d930d182e65e2b45fc45e13514a39aac5f54dbfa5bbb"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/menu/css.ts",
+      "bytes": 3329,
+      "sha256": "a767e3d87cf2b1782c1ab1ac769fbe277c693407eb8d0c7d1fd5b9be2c35572d"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/menu/memes.test.ts",
+      "bytes": 6444,
+      "sha256": "0ed0bb9bcdce825aca98e21a7f09d6827fccc11da8df54e224c1b1ea49f45324"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/menu/memes.ts",
+      "bytes": 4766,
+      "sha256": "b3fe9dd620d0067f8d0a94772cfac358924a7e4a94ba7861b78663796514f1f8"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/menu/mount.ts",
+      "bytes": 9297,
+      "sha256": "8ae485ee6d334bbf931cf3b5a259d9fbda1dff8fb73d059d2aa7096a6f110c5a"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/menu/position.test.ts",
+      "bytes": 5029,
+      "sha256": "cb868d038054a34386669685a66af32d31d24c2ed1a3fd7379e1232c7c410cb0"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/menu/position.ts",
+      "bytes": 3394,
+      "sha256": "fde5c9fc0b0dcc706a92c23222a9ef04953e7ad18395b39b2b6a1488911c2355"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/menu/tree.test.ts",
+      "bytes": 1189,
+      "sha256": "111e25a868fcdb6c6418a737d12b00a4ac448dd9c94b26ea9aa4c548478de214"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/menu/tree.ts",
+      "bytes": 7117,
+      "sha256": "1f611d09df51ef4230bf742ababcd341e2d9953b51909d2b488208908bd5e417"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/menu/types.ts",
+      "bytes": 2670,
+      "sha256": "17c0af71621835f47793b93dbf82948b1fba1a987c40ade30db509fab2c7dbea"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/motion.ts",
+      "bytes": 3813,
+      "sha256": "eeab03e239c35fa0a7cd79984e7d604ec8a2dc9bce3f9c26a75f864e80f0f4d2"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/notify.test.ts",
+      "bytes": 4524,
+      "sha256": "350e23c2d838dcd81554c9a385f958e0a640272e044253a4d6379b40e7daa5ac"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/notify.ts",
+      "bytes": 5262,
+      "sha256": "787b7179c6395d40ee4be748099b542d9efc1027f42a89798be086e7795edcf0"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/pet-size.test.ts",
+      "bytes": 2374,
+      "sha256": "f8fb088540a0e38a5dd468eb2f693e67d0d058fcbb42f07afc6456764393d49d"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/pet-size.ts",
+      "bytes": 2266,
+      "sha256": "fa90640cb2228197cbd7c342d3c2d5816172a055712a105297b3c71c3aa9cb16"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/physics.test.ts",
+      "bytes": 9708,
+      "sha256": "3d173e59585b990c4a2616880cc8ccc457c5c79da381e83ad21b0c804cd28d97"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/physics.ts",
+      "bytes": 1660,
+      "sha256": "fd4f4f372a4fee8d21d32e6be7c6b51b39ef048a74f2d4716fdbe49dd3d3c343"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/physics/collide.test.ts",
+      "bytes": 6302,
+      "sha256": "24f10f0c024e34cdeef73d287d4fa80bc9a1d346c8969edd098917483a43793c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/physics/collide.ts",
+      "bytes": 5248,
+      "sha256": "45fb825464136a3ab2969d4e9e8294dea832e362cee014336af50fa2649e52e1"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/physics/constants.ts",
+      "bytes": 5087,
+      "sha256": "cc89852e74ca0f1aa9caf96ff5e08a68b56aa864e18a7843ed09b9e26a94f41d"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/physics/contact.test.ts",
+      "bytes": 3526,
+      "sha256": "c76366bbc84f309eb51d7cdb1bed9249ac8ddba4c6e4acb943348fc137efd615"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/physics/contact.ts",
+      "bytes": 3332,
+      "sha256": "7b6bfa44c6cff704b410c232d380ffc40f22ae53102ef57e24c8e786b1a6b0b6"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/physics/release.ts",
+      "bytes": 5815,
+      "sha256": "0e2af96a0f00010f4bde9adafe71243f5b4b7258c852285a544fd9a98ed1a3cd"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/physics/spring.ts",
+      "bytes": 1062,
+      "sha256": "82fc11b002e918c0be5fea31b785d83e85a71df602a9177f3f7b94d5cade879e"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/physics/squash.test.ts",
+      "bytes": 2901,
+      "sha256": "4852f022a56903d39635c485b306d00c08c6e52700c44ea5ee59fbc01bd8ae0e"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/physics/squash.ts",
+      "bytes": 1344,
+      "sha256": "5fc9684e8042ca1c12c331e9b272f5558444cece46592b6c6b2a3e2af65ce4cf"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/physics/throw.test.ts",
+      "bytes": 4693,
+      "sha256": "24566e5f13788a42865458d0f4a9258ace9286e9eb4a9bfe0abfb26b5caa57a9"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/physics/throw.ts",
+      "bytes": 11764,
+      "sha256": "b90ef084b84a5d8b076bd051f995e57f7950fbda99d2484a9cb995aba709c9c4"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/pickers.test.ts",
+      "bytes": 10508,
+      "sha256": "1b935427d88b6d5bb7c26162ac395b0c027a5c37c6336463bcba14881f287f00"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/pickers.ts",
+      "bytes": 5603,
+      "sha256": "b7c9f1f0227e2b005e99de82257bcd6b0f8157821664dcac3af050211a239567"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/playback.ts",
+      "bytes": 1017,
+      "sha256": "091e25656fac768014bbe71a3846a2cb93490d0d185ad3505ffb43f92401f8b6"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/score-popup.ts",
+      "bytes": 8197,
+      "sha256": "19c8729dd90a1bf7e413430d4585a98527a18028336d43a4fe39a0e756fcd8e5"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/score.ts",
+      "bytes": 1010,
+      "sha256": "19961f65eca14f890b629521eb213ff168dd47119487fa86b7867198d9ca5cbc"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/sleep-hotkey.test.ts",
+      "bytes": 1898,
+      "sha256": "80835ffd6277121a922ee7cf7c14a62ecd43b879c8b6d1e5539927357b785f54"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/sleep-hotkey.ts",
+      "bytes": 945,
+      "sha256": "ae2abe7b39c5da111439665b321dd3b010a2e934a06f3ce02b1e5caaa57ab447"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/state.test.ts",
+      "bytes": 22246,
+      "sha256": "1dc6d7e6beabb93ddffdf9c5d5e59257f5dbe70e2ad94702f0a7e6f890d2ae15"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/state.ts",
+      "bytes": 19143,
+      "sha256": "9f7367e6280066fe1a18b3e5c574359c85f3bc059841d5889871aad909a7b5f1"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/todo/api.ts",
+      "bytes": 3937,
+      "sha256": "30e1479cc2ed1c599f73baf7d8d888309127bae999dd68307be812f2972d16d2"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/todo/calendar.test.ts",
+      "bytes": 2210,
+      "sha256": "92c14ecaf69549787199eef78a332128501a5288065fc4ba9afff967773fc3ee"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/todo/calendar.ts",
+      "bytes": 1293,
+      "sha256": "0ec6d7517f519b62d3b562a6487228c5f7fb7ca6a566984bd412772d8178e4f4"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/todo/due-picker.ts",
+      "bytes": 12311,
+      "sha256": "3b9ec3caf412ce4ad84764326274de5df770bf601af7f18bee218197e4703d3c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/todo/format.test.ts",
+      "bytes": 4316,
+      "sha256": "300dc80516cdd049979e5dcb1acfbcfc40ec4378aaae66c15c983bb1d472f8d9"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/todo/format.ts",
+      "bytes": 5685,
+      "sha256": "3f8ae6f66a6e685c4b081e74b61328fe808a05a0b4d5de1d78dc5ffa03c56a5a"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/todo/hotkey.test.ts",
+      "bytes": 1433,
+      "sha256": "25923345cd10e9718480ae9f94afa47df6da17fff36943dea31792fc4d5b1136"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/todo/hotkey.ts",
+      "bytes": 733,
+      "sha256": "aa53c16ef5e3c779ccebf585594efdc834406eba7f965aea529c040d738a11c8"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/todo/index.ts",
+      "bytes": 979,
+      "sha256": "3b081d3e1100e1419518e39b3f9fe9b99d9ccdbee2a07577c34b501889cce3e3"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/todo/panel.ts",
+      "bytes": 6101,
+      "sha256": "50b952c92feff9d64fbe74c141b018e4815a3c92363034af69ec80fae343e81c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/todo/render.ts",
+      "bytes": 8719,
+      "sha256": "d833affc8b06dbf76435b74a279fd6dde9015f0a48462c596563fbe771c28c26"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/todo/styles.test.ts",
+      "bytes": 2637,
+      "sha256": "5901384527258e956cd3d744d336f798eb530500eddc972cc77cb3891c55e4ad"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/todo/styles.ts",
+      "bytes": 12592,
+      "sha256": "1bbd288b8464d76e7036a05e5a302f737165f94b1d01b50688ecddeb497ca993"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/todo/types.test.ts",
+      "bytes": 3022,
+      "sha256": "9055f51be76b9b5144bcdc635e525494848f98997f8863cb3bb5f823e7240981"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/todo/types.ts",
+      "bytes": 3179,
+      "sha256": "1db142e3f864be0ab1fff83f88c3b1cfef36b74e3f664e08cc128720b5858df2"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/tooltip.ts",
+      "bytes": 4504,
+      "sha256": "ad06d09ae925873b69c945c147e941e113c4a24b13bcf03db29447219cbf9194"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/types.ts",
+      "bytes": 13848,
+      "sha256": "1120d26f06f1a27033af63e2c4e36126646346bf54c461bf9a6beb16da5d0f97"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/voice.test.ts",
+      "bytes": 11684,
+      "sha256": "48ef720bbf8f93f2d65c3cb1f0d713211f69c4db3c4c7ff1d0c3a6813a79b32b"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/voice.ts",
+      "bytes": 13599,
+      "sha256": "0b739a9c6e687ec40889a3b97bc224d13b761ef850ce2e1cfbdf9d40a8730b56"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/whisper.test.ts",
+      "bytes": 8689,
+      "sha256": "b8694a31fa94734286ce44bbeb27dc95a6673a44c783ae67e229bbf128eb3dca"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/whisper.ts",
+      "bytes": 6533,
+      "sha256": "23446fab1dc7afb726a53c4f23d5a1b456c34b99069fe921fe99cdd1912686ea"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/work-status.test.ts",
+      "bytes": 1435,
+      "sha256": "cc2eb3fca3d1f0c103ce0f579d23b04056efa70e05e621ac3500bf10d64416fe"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/shared/work-status.ts",
+      "bytes": 2538,
+      "sha256": "de9db5584eaa288b2c96b3c1d6d38594e4d41abf80780628c30f3548f7c8c80c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/ai-config.test.ts",
+      "bytes": 5732,
+      "sha256": "3bd886c2c254fd6736f47bbe35866609e44c8566d243e45f55d36f94ffd54ebd"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/ai-config.ts",
+      "bytes": 7944,
+      "sha256": "902f7f8188481a3f4bd91ccfbf3e9da58e46b2fa485e20d37ea6496b9ee52bd5"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/ai-provider.test.ts",
+      "bytes": 14003,
+      "sha256": "a12ab107063e20c3f5e4fc1b6b0c6b587bb46719b396fe603cf4948a7fc1d07a"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/ai-provider.ts",
+      "bytes": 489,
+      "sha256": "11007b18fc95808b1d3ffa03042d86c23d5f65f97672939743f6d72613abba3e"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/ai-provider/balance.test.ts",
+      "bytes": 1269,
+      "sha256": "a7148556f22e3eedafc9aa4d4ce36c58ea1c904d94487c7798db1cfc2ff49600"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/ai-provider/balance.ts",
+      "bytes": 1107,
+      "sha256": "a0164d384d8716a4119fc96ab65ef5ff66cea502ef437580fdc0549b3da0c03a"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/ai-provider/create.ts",
+      "bytes": 4598,
+      "sha256": "84e23b4729e3e5260759352ea5784c3eb8feb723aeba267dcc0094dd54932e99"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/ai-provider/limits.ts",
+      "bytes": 1540,
+      "sha256": "deba9ee36c4c322c43d1353e292711bd8fd94f33e890f471b920fb8de24ef86c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/ai-provider/list-models.test.ts",
+      "bytes": 6332,
+      "sha256": "14f973bdcf597afd69bc31c14d603f2026408ccd9d81e03202e65cd7c77665b1"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/ai-provider/list-models.ts",
+      "bytes": 7971,
+      "sha256": "80ffd5c457f0fb74abc413523891768e432416d4e4e85c09d07025c303dd10d7"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/ai-provider/request.ts",
+      "bytes": 2768,
+      "sha256": "7b60b5c12a2f1609930056d38f3c5c3f0f999c71c39976993a47942ac420528a"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/ai-provider/stream.ts",
+      "bytes": 5039,
+      "sha256": "abf885fbffc85a745b7ec7c00d7b2c8882b89f7b21ef0e2f4bb589e0b13094cb"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/ai-provider/test-connection.ts",
+      "bytes": 4385,
+      "sha256": "41c09e52ef90443a58c7df9f64cc775777c35358ca29e9d544677fb510b4f63a"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/ai-provider/types.ts",
+      "bytes": 4577,
+      "sha256": "2beb6626bfffd7b20b1dcb1de273f42ac677db0fbdc5eff349cb3f237d8c4406"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/ai-storage.test.ts",
+      "bytes": 3342,
+      "sha256": "cd4d205e0daf7f7edddeecc46aca1467e1e51679ee69174f580a444dfb0b1e72"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/ai-storage.ts",
+      "bytes": 4812,
+      "sha256": "a21dfe838bc018b70fd7d785650bc7e33010fa9ea2671dcd97042c62c91a7a9a"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/ai-transport.ts",
+      "bytes": 6682,
+      "sha256": "2a6e49d073fc106b5b44fa12522f9cb5e17caf4bc665ccdc296d9232713abdf1"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/chat-panel-asset.ts",
+      "bytes": 876,
+      "sha256": "ae56669fce39c55da66fed12d236577e3f459772ca0e5d71c2faf37b52c3618c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/check.ts",
+      "bytes": 4332,
+      "sha256": "e995b4ce7cbfd4f5805f867a9f182b5e283006c028204e3415e8663a8ca21d0c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/cli.ts",
+      "bytes": 7733,
+      "sha256": "63e2068bddf33a3d95df50274c200fa59c707893943c5132f81ab3e9efff11f4"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/context-ai.test.ts",
+      "bytes": 2551,
+      "sha256": "fb5168dc377081a31fdef4fbc0ea48158308a00349b7fca681b7dc52323ae539"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/context-shutdown.test.ts",
+      "bytes": 1718,
+      "sha256": "6cdd0945741abdc8947214a247a145e5396262ee199e068e265f6bbb5dfa5c32"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/context.test.ts",
+      "bytes": 8243,
+      "sha256": "a9b0d587f67d03b74dafa3e1a9016bf8792cc9aa3ee44fa5b259be101fb85cc1"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/context.ts",
+      "bytes": 7121,
+      "sha256": "e123c450a13f83d1246fb667bf6ac7040058f1a89d807480a2d383d0fe64ca26"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/icon.ts",
+      "bytes": 869,
+      "sha256": "1fe86a109c7a38eb9a7c11a07bced72be0a5a4d73d26c7849a4e354c03106d76"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/integration.test.ts",
+      "bytes": 10738,
+      "sha256": "c1e1a6c45b9afc8da52218dd363f8e2623e840696bcf71d018342c1b9203f850"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/llm-facade.ts",
+      "bytes": 2898,
+      "sha256": "b922b5a240d0eeacb5efc46ca3ef1a1aecc26015c1015a40dbce68d27b979762"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/logger.ts",
+      "bytes": 1469,
+      "sha256": "d83ac08893e6afcd3e18ba9237a62933b31e2db1a69f74d02bdd8f230149e5fc"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/options.test.ts",
+      "bytes": 3492,
+      "sha256": "05f5816929617317222542ddd13acd12481df0fa2edf68b5e2632e266b3fb511"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/options.ts",
+      "bytes": 3757,
+      "sha256": "2d1821ebc9d9dc2a4caada8ffa7e286a5519c78cc913d34de7903187a51206fa"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/request-body.ts",
+      "bytes": 2718,
+      "sha256": "0dc35b25fc97c8528744f8d688524a6086b7da391a2fd47961502204391b5b0e"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/request-security.test.ts",
+      "bytes": 8158,
+      "sha256": "1176dda9b8badf3879d923d4c34ff670d0b03f18b3dcf40ed1617094f014c325"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/request-security.ts",
+      "bytes": 7300,
+      "sha256": "2e8f4ce55995679f85902561ba4bad7e039d01ebef56bb0fdf37ac3622fa1e78"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/runtime-state.test.ts",
+      "bytes": 1878,
+      "sha256": "dc19ca5868fc43167d1e71a1610e25d6f4cbc528a12528c8bd1696792f72601c"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/runtime-state.ts",
+      "bytes": 2200,
+      "sha256": "146ead333cf1713a5bd628d104cfba27c030f7d14bffb6525890a4624aa17061"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/server.test.ts",
+      "bytes": 20551,
+      "sha256": "d0c8f29bbb7e3cac6573a8b153de4d525b448d569a9f7ec53dc5089a8182478f"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/server.ts",
+      "bytes": 670,
+      "sha256": "2bc619dd4440e5d03b0d86aeaa3270ec6d82a241416324978bbcfc48b1a48797"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/server/handlers.ts",
+      "bytes": 5166,
+      "sha256": "4f2f73cbb5acb7c0786b0b59a6e572a3c2b47a39a538d11bf71a45fa111c6fda"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/server/listener.ts",
+      "bytes": 9220,
+      "sha256": "a6e455a83eb98c424983ecd794d783920271d5c860a8407cd9865a4e21d935da"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/server/options.ts",
+      "bytes": 1456,
+      "sha256": "2cfce0117b1f67137b28c418faa1dbdaacc50712263f3f780a511b68c6442efe"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/server/respond.ts",
+      "bytes": 3081,
+      "sha256": "59418a9330eb3a43f0043f076841beaf6d94bb98dd9caa7655b5d5a03d2a44e3"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/settings-page.ts",
+      "bytes": 2458,
+      "sha256": "3d17c82923721113d90f198dd81830a8548b12acaa546bbf682067ed1c5d1bab"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/settings-page/chat-mount.ts",
+      "bytes": 1304,
+      "sha256": "f42183f069c3016430a30d2789953c95bf265cd172a86617e8c2c7ebf1986f1a"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/settings-page/chrome.ts",
+      "bytes": 6529,
+      "sha256": "a453e2ade539d7d578cc0a0a73ed74eeb862788dc766784613048c794390c034"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/settings-page/script/ai.ts",
+      "bytes": 7399,
+      "sha256": "1a2c9915d7a7ab388fcbf724c2b49d517b225f4b46695bc31a40c0a4c7a6e163"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/settings-page/script/avatar.test.ts",
+      "bytes": 8860,
+      "sha256": "fe15c300e554a64430ae6a5e51f3d7791a68641317f87be53ad69202f07fb6d9"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/settings-page/script/avatar.ts",
+      "bytes": 5809,
+      "sha256": "222d4e93657aa5dadb3f3a494c9e117c844af8aa349a83b30f932d6e54a2fad9"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/settings-page/script/boot.ts",
+      "bytes": 4414,
+      "sha256": "7ff7137fcb12f5c1f17a2b6afbe285245445d4b5200a00e0d53e75a0fd84c4be"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/settings-page/script/core.ts",
+      "bytes": 4325,
+      "sha256": "eb8cfef182cd024224f8ec5b28c96295342ebbdc450b6ea28612b2781d42238e"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/settings-page/script/globals.ts",
+      "bytes": 8175,
+      "sha256": "01abfe89b74ad5e13ef319f4cbd85c1df162b660460f50336d0a76d9ed1fd762"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/settings-page/script/model-picker.ts",
+      "bytes": 2916,
+      "sha256": "fadf91eb0a63511071eea970329f1854a74f38e8707662ea89e10ee252997691"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/settings-page/script/overlay.ts",
+      "bytes": 8121,
+      "sha256": "07fd62089f0c212987fab0d7df39581d32560b248bd1b74dec6e3b6c4c37fd5d"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/settings-page/script/pet-card.ts",
+      "bytes": 7022,
+      "sha256": "f2074d1c277da5f909f06c464bc85179e71c3c522e4acef26de9cbd77efae075"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/settings-page/script/pets.ts",
+      "bytes": 6480,
+      "sha256": "683386019c1e16fd05a78c8cee49d2f2ca0d931557246c418c6b60cca72de029"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/settings-page/script/widgets.ts",
+      "bytes": 4160,
+      "sha256": "faed7f08447eceee9f473b33d7b7303bc6f0d8dc280ec65e92cee62a11be4573"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/settings-page/style.ts",
+      "bytes": 15442,
+      "sha256": "27a83eafa9d9d30d965977639c36417a834ba478d1bd91d920a89ae9d88f7685"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/settings.test.ts",
+      "bytes": 13763,
+      "sha256": "daa4d176af864c129c206f09c70985aa6e9ccbc1d2315384c8a112db69758e21"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/settings.ts",
+      "bytes": 3404,
+      "sha256": "f64975486503f04f5150f62a2f12e6db51095a0fcc821fd26c2966e681605fc3"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/shims/dsh-credentials.ts",
+      "bytes": 540,
+      "sha256": "eaf1aea4c7e17e3125b848ca58772eceb9e966fea3a5db7f740f62339d454646"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/shims/dsh-home-paths.ts",
+      "bytes": 506,
+      "sha256": "76f4dcf09afd9da46feb25fb87e8eb6e0256836fa4145cbfc5976cbdefb2f0bf"
+    },
+    {
+      "path": "dshgit/dsh-pet/src/standalone/shims/dsh-llm.ts",
+      "bytes": 1954,
+      "sha256": "102c077296705ce7bb72bf7470fb3fc0ead33bd33d9c569b255fefd73f712dea"
+    },
+    {
+      "path": "dshgit/dsh-pet/tsconfig.json",
+      "bytes": 571,
+      "sha256": "97bada054e1a0502ebcfc91660afd34e5e5aa8791d5368461fc60d95c72fcd70"
+    },
+    {
+      "path": "dshgit/dsh-pet/tsconfig.test.json",
+      "bytes": 197,
+      "sha256": "ad561f1cd5d7f55da4211110d48968264fe50814a8d3cf67c721fef10e8343e7"
+    },
+    {
+      "path": "dshgit/dsh-pet/tsconfig.types.json",
+      "bytes": 228,
+      "sha256": "38c0688d03f94325209ef1dfb2841673a704d5a6922c4ec54eb1468968a9501d"
+    },
+    {
+      "path": "dshgit/dsh-pet/tsdown.config.mjs",
+      "bytes": 6852,
+      "sha256": "ea171bcc510cf930abc7e35ab2d956a399e85a2fc3fe60a0e241c0582c3ae1d5"
+    },
+    {
+      "path": "dshgit/openapi.yaml",
+      "bytes": 204532,
+      "sha256": "8d075e009abdc6ce817a9fde1510ad9a1c5f7e3712420597b051516b4c973fb8"
+    },
+    {
+      "path": "dshgit/prompts/桌面宠物 10 秒动作提示词.md",
+      "bytes": 291106,
+      "sha256": "df4af712c2d9c34da823ecf4b69e92d119e8f24fb37f8ad7a0be3ff4dd581405"
+    },
+    {
+      "path": "dshgit/prompts/睡觉动作提示词.md",
+      "bytes": 7947,
+      "sha256": "19e65d72b3c1a5c9b6f9cd13c8e001033bb715c8116acc20d0999506ca54bdbf"
+    },
+    {
+      "path": "dshgit/prompts/系统通知图标 AI 生成提示词.md",
+      "bytes": 3622,
+      "sha256": "6a35276e4821b748ef670b5f8e27ecd7c2465b42579418064bf3eb95db431016"
+    },
+    {
+      "path": "dshgit/scripts/check_alpha.py",
+      "bytes": 1660,
+      "sha256": "99c4454439653123d699e09690cbfd0b7a818df304d53e0dd2c6267b56d4953b"
+    },
+    {
+      "path": "dshgit/scripts/chroma_step02.py",
+      "bytes": 8764,
+      "sha256": "d86368a00a5910eeb67f2dcdc76298822cc875d659d97ed88b1e9f78098f8050"
+    },
+    {
+      "path": "dshgit/scripts/encode_hevc_alpha.sh",
+      "bytes": 3712,
+      "sha256": "90dba1294c16e6f8fd2c318cc04c760877d1a4da9acbd70d767871edc4faf07c"
+    },
+    {
+      "path": "dshgit/scripts/encode_preview_gifs.py",
+      "bytes": 8790,
+      "sha256": "9baaaca03e866a69d4e687478c489e1d2c18c836eeef0174f98a0da5c7e65924"
+    },
+    {
+      "path": "dshgit/scripts/encode_thumbs.py",
+      "bytes": 5122,
+      "sha256": "f60f12c9e16224161a45fc090d3fead44ad4aba2afcc391d58ca7e2447d5bd2d"
+    },
+    {
+      "path": "dshgit/scripts/fill_nn.py",
+      "bytes": 3803,
+      "sha256": "14fd283b7009ed890560947c5a516e014748415f4b9707a1a922eb61d9a903fe"
+    },
+    {
+      "path": "dshgit/scripts/hevc_alpha_encoder.swift",
+      "bytes": 5856,
+      "sha256": "e181dd4ec750ef8e2c93eb4c9fe6d39dd12344ff3c26557ef4a89da200617fd0"
+    },
+    {
+      "path": "dshgit/scripts/make_mask_black.py",
+      "bytes": 2151,
+      "sha256": "296a2f17f7de6ca7d53274eb5ae0c452f1fe35dce090cd4fca674124d5791393"
+    },
+    {
+      "path": "dshgit/scripts/normalize_step03.py",
+      "bytes": 8472,
+      "sha256": "1b7a51d84b9a5eef1df1f0ef06b1cab046abe28ff4a0f58a086fa6f650321ac8"
+    },
+    {
+      "path": "dshgit/scripts/pr_import_step02.py",
+      "bytes": 5265,
+      "sha256": "27cb58643d887341918e955a9eebf95cdc6e161e9021ca524d8b16087a25d1f2"
+    },
+    {
+      "path": "dshgit/scripts/watermark_step01.py",
+      "bytes": 3445,
+      "sha256": "618d07e4150ce4c3d59fe70762dc58e2decbc0c32619d704b900b685c63ca1e6"
+    },
+    {
+      "path": "dshgit/tools/api-tester.cjs",
+      "bytes": 11910,
+      "sha256": "8cc55b209c5578589b9ef7e9039e96916b113200f3e23a8a18bb95e74d1e0fb9"
+    },
+    {
+      "path": "dshgit/tools/api-tester.html",
+      "bytes": 210904,
+      "sha256": "e3691f6cd0506a779f1ad0b8bff7dd9b7480845a8599c1daa3e291ea9e537197"
+    },
+    {
+      "path": "dshgit/tools/cordis-probe/README.md",
+      "bytes": 3076,
+      "sha256": "d2ed5f91ca31e94ec70bc30202c2a3005258b2027eb5f9c5e08c8b6ed6caea23"
+    },
+    {
+      "path": "dshgit/tools/cordis-probe/cordis.patch.yml",
+      "bytes": 1061,
+      "sha256": "3962279e16e41695d9585ef37e74990a0142dbed413f42aa660a64bd2e2215c2"
+    },
+    {
+      "path": "dshgit/tools/cordis-probe/lib/client.js",
+      "bytes": 21334,
+      "sha256": "18287fd01b0c132207ccf005a5e00cb4ba0c8670e4edf0d087a82667e360dbc0"
+    },
+    {
+      "path": "dshgit/tools/cordis-probe/lib/index.js",
+      "bytes": 5546,
+      "sha256": "3a0f007a077bf7b7713758d9bcd96a30001c5f4224fe259042b815114db38c4d"
+    },
+    {
+      "path": "dshgit/tools/cordis-probe/lib/mock-adapter.js",
+      "bytes": 1819,
+      "sha256": "34e05619230a63df6ebb69265a6ebd12d2f6d5a36933e74449351a5847752f58"
+    },
+    {
+      "path": "dshgit/tools/cordis-probe/lib/mock-balance.js",
+      "bytes": 11105,
+      "sha256": "3c7fdd525bf892733a67b985e590ecb9f993e2249d55cadd89dc670eabe1874c"
+    },
+    {
+      "path": "dshgit/tools/cordis-probe/lib/mock-speech.js",
+      "bytes": 984,
+      "sha256": "97d33de35af184cdd50fd9c665fa59ff0ecd1faaeeef14e824e99c68db886ad8"
+    },
+    {
+      "path": "dshgit/tools/cordis-probe/lib/mock-voice.js",
+      "bytes": 3020,
+      "sha256": "c7bab58f2cfbe35da6724265e434adb0f75574cc774c6c4f9dd5ac3c5b060303"
+    },
+    {
+      "path": "dshgit/tools/cordis-probe/lib/toggle-route.js",
+      "bytes": 1624,
+      "sha256": "5662f75dc0b40566baeb584b5b10d0419115b21b6610541b2145451327932dc8"
+    },
+    {
+      "path": "dshgit/tools/cordis-probe/package.json",
+      "bytes": 2031,
+      "sha256": "ccce3e2daac9ecb20467681d4f6151823aea2d61667ae1276e71f9aaddbd8a40"
+    },
+    {
+      "path": "dshgit/tools/preview.html",
+      "bytes": 8405,
+      "sha256": "daa3f31f98385db93ecd49d790e2e3c967afd357ccbf204be1de5bffcf6f9eb8"
+    },
+    {
+      "path": "dshgit/tools/probe-dpi.cjs",
+      "bytes": 6759,
+      "sha256": "5441f4190e3cd8802f230ce2c49e0b0bef0ab27f7cf00e1551305443d0698e7e"
+    },
+    {
+      "path": "gradle.properties",
+      "bytes": 1245,
+      "sha256": "914157a5c86ad8acdc719330d7fc4a3cfa05cdd213e546aab1718414a41e862d"
+    },
+    {
+      "path": "gradle/gradle-daemon-jvm.properties",
+      "bytes": 1138,
+      "sha256": "6c13aa5ba36690ccfbbb25a8807d01d98c15833e446d7ae82ddc726472cb8ef7"
+    },
+    {
+      "path": "gradle/libs.versions.toml",
+      "bytes": 1751,
+      "sha256": "2c40e2dcbf934669c82c58dce857aa5f3bb5867ce48d1a7ca19aed87d5443617"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "bytes": 45457,
+      "sha256": "76805e32c009c0cf0dd5d206bddc9fb22ea42e84db904b764f3047de095493f3"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "bytes": 369,
+      "sha256": "9a1160d5767c2825d6b4f7a0f69b6f37b58b83f9858dda997514428f3b7ad83a"
+    },
+    {
+      "path": "gradlew",
+      "bytes": 8728,
+      "sha256": "3238afb2aed5cb16eb7d6718077e7138059108f007b54179e9cc157c5a6e0e89"
+    },
+    {
+      "path": "gradlew.bat",
+      "bytes": 2937,
+      "sha256": "1d297e00bd21de3ace22b4d7f2de1f9dfa858883d66bbf7c1ccbecccec8f4f3b"
+    },
+    {
+      "path": "settings.gradle.kts",
+      "bytes": 622,
+      "sha256": "93643a1ccea87a893101d6df1a6d80f33e12779c1b63874cc549363826b04ae0"
+    },
+    {
+      "path": "UPSTREAM.json",
+      "bytes": 295,
+      "sha256": "0f99fe00b1108460810727fab3408f410db38a072e2bac9938f68dfa93f3c799"
+    }
+  ],
+  "text_files_scanned": 764,
+  "secret_pattern_scan": "passed; no high-confidence credential pattern found",
+  "machine_identifier_scan": "passed",
+  "git_history": "excluded",
+  "private_and_build_artifacts": "excluded by explicit file selection and deny rules"
+}

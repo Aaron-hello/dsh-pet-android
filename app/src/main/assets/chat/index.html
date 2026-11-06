@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="color-scheme" content="light">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+  <title>和小家伙聊聊天</title>
+</head>
+<body>
+  <main class="chat">
+    <header class="header">
+      <div id="drag-handle" class="identity" aria-label="拖动聊天浮窗">
+        <span class="avatar"><img src="./avatar.png" alt=""></span>
+        <div><h1>蓝毛小女仆</h1><p>在这里，听你说</p></div>
+      </div>
+      <button id="clear" class="icon-button" aria-label="清空聊天记录" title="清空记录">↺</button>
+      <button id="close" class="icon-button" aria-label="收起聊天浮窗" title="收起">−</button>
+    </header>
+    <div class="balance-bar">
+      <div><span class="balance-label">API 余额</span><span id="balance">尚未连接</span></div>
+      <button id="refresh" aria-label="刷新 API 余额">刷新</button>
+    </div>
+    <div id="connection" class="connection"><p>添加自己的 DeepSeek 密钥，就能和我聊天啦。</p><button id="connect">去连接</button></div>
+    <p id="account-error" class="account-error" hidden></p>
+    <section id="messages" class="messages" aria-label="聊天记录" aria-live="polite" aria-relevant="additions">
+      <div class="empty" id="empty"><span>♡</span><h2>今天想和我说什么？</h2><p>聊聊日常，或者分享一点小心情。<br>我会记住最近的对话。</p></div>
+    </section>
+    <div id="notice" class="notice" role="status" hidden></div>
+    <form id="composer" class="composer">
+      <label class="sr-only" for="message">对小家伙说的话</label>
+      <button id="stickers-open" type="button" aria-label="选择内置表情">☺</button><textarea id="message" rows="1" maxlength="4000" placeholder="和我说说话吧…" enterkeyhint="send"></textarea>
+      <button id="send" type="submit" aria-label="发送消息">发送</button>
+      <button id="stop" type="button" hidden>停止</button>
+    </form>
+    <section id="stickers" class="stickers" aria-label="内置表情" hidden><p>选择后立即发送并调用 API，会计费</p><div id="sticker-list"></div></section>
+    <p class="billing">API 对话会计费 · Flash · 记录保存在本机</p>
+    <div class="confirm" id="confirm" hidden>
+      <div role="dialog" aria-modal="true" aria-labelledby="confirm-title">
+        <h2 id="confirm-title">把这段聊天收起来？</h2>
+        <p>会清空这只宠物的本机历史，并停止正在生成的回复。其他宠物的记录不受影响。</p>
+        <div><button id="keep">先留着</button><button id="confirm-clear">清空记录</button></div>
+      </div>
+    </div>
+  </main>
+<nav class="bottom-nav" aria-label="主导航"><button data-nav="pet"><span>♧</span>宠物</button><button data-nav="chat"><span>♡</span>聊天</button><button data-nav="todo"><span>✓</span>待办</button><button data-nav="settings"><span>⚙</span>设置</button></nav>
+</body>
+</html>

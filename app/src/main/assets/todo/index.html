@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="color-scheme" content="light"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'"><title>小事记</title><link rel="stylesheet" href="style.css"><script src="app.js" defer></script></head>
+<body><div class="page">
+  <header><button id="back" class="icon" aria-label="返回">‹</button><span>dsh·pet / 小事记</span><span class="private">记录保存在本机</span></header>
+  <main>
+    <section class="intro"><div><p class="eyebrow">ONE LITTLE THING AT A TIME</p><h1>把小事，<br>放心交给<span>这里。</span></h1><p class="subtitle">记下要做的事，留一点心思给生活。</p></div><img src="hero.png" alt="陪你记小事的蓝毛小女仆" width="200" height="113"></section>
+    <div class="summary"><span id="count">正在读取…</span><button id="voice-add" class="voice-button">◉ 说一句，记下来</button></div>
+    <aside id="permissions" class="permissions" hidden><div><strong>给提醒一张通行证</strong><p id="permission-note"></p></div><div class="permission-actions"><button id="notifications">开启通知</button><button id="exact">开启准时提醒</button></div></aside>
+    <div id="load-error" class="error" role="alert" hidden></div>
+    <nav class="filters" aria-label="筛选待办"><button data-filter="open" class="selected" aria-pressed="true">未完成</button><button data-filter="done" aria-pressed="false">已完成</button><button data-filter="all" aria-pressed="false">全部</button></nav>
+    <section id="list" class="list" aria-label="待办清单"></section>
+    <p class="local-note">手动记录与到期提醒不调用 API。<br>允许通知和准时提醒后，应用在后台也可接收系统通知。<br>省电限制可能延迟提醒；强行停止应用后需重新打开。</p>
+    <div class="background-settings"><button id="battery-settings" class="secondary">查看手机省电设置</button></div>
+  </main>
+  <footer><button id="add" class="primary">＋ 记一件小事</button></footer>
+</div>
+<div id="editor" class="backdrop" hidden><section class="sheet" role="dialog" aria-modal="true" aria-labelledby="editor-title"><div class="handle"></div><div class="sheet-heading"><h2 id="editor-title">记一件小事</h2><button id="editor-close" class="icon" aria-label="关闭编辑">×</button></div><form id="edit-form"><label for="title">要做什么</label><textarea id="title" rows="3" maxlength="200" placeholder="比如，给家里的花浇水"></textarea><label class="check-label"><input id="remind" type="checkbox">到时间提醒我</label><label id="time-wrap" class="time-wrap" hidden>提醒时间<input id="time" type="datetime-local" step="1"></label><p class="hint">提醒保存在手机，不需要桌宠一直开着。</p><button id="save" class="primary" type="submit">保存到手机</button></form></section></div>
+<div id="capture" class="backdrop" hidden><section class="sheet capture-sheet" role="dialog" aria-modal="true" aria-labelledby="capture-title"><div class="handle"></div><div class="sheet-heading"><h2 id="capture-title">说给小家伙听</h2><button id="capture-close" class="icon" aria-label="关闭语音和 AI 草稿">×</button></div><p class="hint">例如：“明天下午三点提醒我买药，再记一下周末整理书桌。”</p><label class="sr-only" for="source">你的原话</label><textarea id="source" rows="4" maxlength="4000" placeholder="可以说，也可以打字。"></textarea><div class="capture-actions"><button id="voice" class="secondary">◉ 语音输入</button><button id="voice-stop" class="secondary" hidden>结束说话</button><button id="analyze" class="primary">AI 整理 · 会计费</button><button id="analysis-stop" class="secondary" hidden>停止整理</button></div><p id="voice-status" class="hint" role="status"></p><button id="connect-api" class="text-button" hidden>先连接 DeepSeek ↗</button><p class="billing">仅在点“AI 整理”后发送这段文字给 DeepSeek。<br>API 按官方规则计费；语音识别可能由系统服务联网处理。</p><div id="draft-area" hidden><div class="draft-heading"><h3>先看看，再记下</h3><span>AI 草稿，可修改</span></div><p class="hint">不明确的时间不会自动安排。请确认每项的内容和提醒时间。</p><div id="drafts"></div><button id="save-drafts" class="primary">确认保存选中事项</button></div></section></div>
+<div id="notice" class="toast" role="status" aria-live="polite" hidden></div>
+<nav class="bottom-nav" aria-label="主导航"><button data-nav="pet"><span>♧</span>宠物</button><button data-nav="chat"><span>♡</span>聊天</button><button data-nav="todo"><span>✓</span>待办</button><button data-nav="settings"><span>⚙</span>设置</button></nav>
+</body></html>

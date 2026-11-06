@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="color-scheme" content="light">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'">
+  <title>dsh-pet · 小小陪伴</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body data-page="pet">
+  <svg class="svg-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-paw" viewBox="0 0 24 24"><ellipse cx="7" cy="7" rx="2.3" ry="3" transform="rotate(-25 7 7)"/><ellipse cx="17" cy="7" rx="2.3" ry="3" transform="rotate(25 17 7)"/><ellipse cx="3.7" cy="12" rx="2" ry="2.7" transform="rotate(-35 3.7 12)"/><ellipse cx="20.3" cy="12" rx="2" ry="2.7" transform="rotate(35 20.3 12)"/><path d="M6.5 18c0-3 2.6-6 5.5-6s5.5 3 5.5 6-3 3-5.5 2.1C9.5 21 6.5 21 6.5 18Z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 2 2.8 7.2L22 12l-7.2 2.8L12 22l-2.8-7.2L2 12l7.2-2.8Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+    <symbol id="i-drag" viewBox="0 0 24 24"><path d="M12 3v18M3 12h18m-12-6 3-3 3 3m-6 12 3 3 3-3M6 9l-3 3 3 3m12-6 3 3-3 3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-hand" viewBox="0 0 24 24"><path d="M9 12V5a2 2 0 0 1 4 0v6m0-2a2 2 0 0 1 4 0v3m0-1a2 2 0 0 1 4 0v5c0 4-2.5 6-6 6h-2c-2 0-3-1-4-2.5L4 13a2 2 0 0 1 3-2l2 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-bounce" viewBox="0 0 24 24"><path d="M3 20h18M5 16c0-8 9-8 9-3 0 4-6 5-6 1 0-3 7-7 12-9m-5 0h5v5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="m12 3 8 3v6c0 4-4 7-8 9-4-2-8-5-8-9V6Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="m8 12 3 3 5-6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </svg>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark"><svg><use href="#i-paw"/></svg></span><span>dsh<span class="brand-dot">·</span>pet</span></div>
+      <div class="header-right"><span class="status" id="status"><span class="status-dot"></span><span id="status-label">在家休息</span></span><button class="icon-button" id="help" aria-label="查看使用指南">?</button></div>
+    </header>
+    <main class="main-grid">
+      <section class="welcome pet-page" aria-labelledby="welcome-title">
+        <div class="eyebrow"><span></span> 给日常，加一点可爱</div>
+        <h1 id="welcome-title">桌面这么大，<br>想陪你<span class="handline">逛逛。</span></h1>
+        <p class="intro">在手机桌面，也在微信和其他应用。<br>你去哪里，小家伙就陪到哪里。</p>
+        <div class="pet-world" aria-label="原版桌宠形象">
+          <div class="halo"></div><div class="halo-ring"></div>
+          <svg class="world-spark spark-one"><use href="#i-spark"/></svg>
+          <svg class="world-spark spark-two"><use href="#i-spark"/></svg>
+          <span class="world-dot dot-one"></span><span class="world-dot dot-two"></span>
+          <span class="pet-note note-left">今天也一起玩吧<span class="note-heart">♡</span></span>
+          <span class="pet-note note-right"><svg><use href="#i-drag"/></svg> 随心拖着走</span>
+          <div class="pet-shadow"></div>
+          <img class="hero-pet" src="./hero.png" alt="蓝毛小女仆" width="600" height="339" fetchpriority="high">
+          <span class="pet-caption"><span class="tiny-star">✦</span> 你的小小跟屁虫</span>
+        </div>
+        <div class="launch-area">
+          <button class="primary" id="launch"><span id="launch-label">带它去桌面</span><span class="button-arrow"><svg><use href="#i-arrow"/></svg></span></button>
+          <p class="launch-caption" id="launch-caption"><svg><use href="#i-shield"/></svg> 首次需要允许悬浮窗，之后轻点就能相伴</p>
+          <button class="recall" id="recall" hidden>让它回家休息</button>
+        </div>
+        <div class="error-card" id="error-card" role="alert" hidden>
+          <strong id="error-title">这次没有成功出来</strong>
+          <p id="error-message">请重新试一次。</p>
+          <details><summary>查看原因</summary><pre id="error-detail"></pre></details>
+        </div>
+      </section>
+      <div class="support">
+        <div class="settings-page page-intro"><span class="section-kicker">MADE FOR YOU</span><h1>设置与小秘密</h1><p>把陪伴，调整成你喜欢的样子。</p></div>
+        <section class="settings-card pet-page" aria-labelledby="settings-title">
+          <div class="card-heading"><div><span class="section-kicker">JUST YOUR WAY</span><h2 id="settings-title">一点小偏爱</h2></div><span class="card-stamp"><svg><use href="#i-paw"/></svg></span></div>
+          <div class="size-row"><label for="pet-size">小家伙的个头</label><output id="size-value" for="pet-size">刚刚好</output></div>
+          <div class="range-wrap"><input id="pet-size" type="range" min="120" max="300" step="10" value="200" aria-label="宠物大小"></div>
+          <div class="range-labels"><span>迷你一只</span><span>大大抱抱</span></div>
+          <div class="divider"></div>
+          <p class="field-label" id="count-label">今天想要几只陪你？</p>
+          <div class="count-options" role="group" aria-labelledby="count-label">
+            <button class="count-option selected" data-count="1" aria-pressed="true"><span class="count-number">1</span><span>独享陪伴</span></button>
+            <button class="count-option" data-count="2" aria-pressed="false"><span class="count-number">2</span><span>双倍可爱</span></button>
+            <button class="count-option" data-count="3" aria-pressed="false"><span class="count-number">3</span><span>热闹小队</span></button>
+          </div>
+          <p class="settings-note" id="settings-note">放心，你的小偏爱都会被记住。</p>
+        </section>
+        <section class="settings-card pet-page" aria-labelledby="persona-title">
+          <div class="card-heading"><div><span class="section-kicker">A LITTLE PERSONALITY</span><h2 id="persona-title">独一无二的它</h2></div><span class="card-stamp">♡</span></div>
+          <p class="api-intro">为它写下身份、性格、相处方式与说话习惯，也可以管理情绪和表情。</p>
+          <div class="persona-actions"><button id="persona-edit" class="api-button quiet">编辑分类人设</button><button id="emotion-edit" class="api-button quiet">情绪与好感度</button><button id="sticker-settings" class="api-button quiet">自动表情设置</button></div>
+        </section>
+        <section class="settings-card api-card settings-page" aria-labelledby="api-title">
+          <div class="card-heading"><div><span class="section-kicker">A LITTLE CONVERSATION</span><h2 id="api-title">让它听懂你</h2></div><span id="api-status" class="api-status">未连接</span></div>
+          <p class="api-intro">接入自己的 DeepSeek 密钥，长按桌宠选择“对话”，或在聊天页和它说说话。</p>
+          <div id="api-balance" class="api-balance" hidden></div>
+          <p id="api-update" class="api-update">不接入也可以继续离线玩耍。</p>
+          <p id="api-error" class="api-error" role="status" hidden></p>
+          <div class="api-actions">
+            <button id="api-add" class="api-button">添加密钥</button>
+            <button id="api-refresh" class="api-button quiet" hidden>刷新余额</button>
+            <button id="api-remove" class="api-button text" hidden>移除</button>
+          </div>
+          <button id="api-pricing" class="api-pricing">API 聊天会计费 · 查看官方价格 ↗</button>
+          <div id="companion-settings" class="companion-settings" hidden>
+            <div><strong>再多一点陪伴</strong><p id="companion-status">自动陪伴未开启</p></div>
+            <button id="companion-manage" class="api-button quiet">陪伴设置</button>
+          </div>
+        </section>
+        <section class="settings-card settings-page" aria-labelledby="memory-title">
+          <div class="card-heading"><div><span class="section-kicker">LITTLE MEMORIES</span><h2 id="memory-title">留给以后的小记忆</h2></div><span class="card-stamp">✧</span></div>
+          <p class="api-intro">可以让它记住重要的事。自动整理默认关闭，开启前会说明 API 费用。</p><button id="memory-manage" class="api-button quiet">管理长期记忆</button>
+        </section>
+        <section class="play-guide pet-page" aria-labelledby="guide-title">
+          <button id="todo-open" class="api-button todo-entry">小事记 · 待办与提醒 <span>↗</span></button>
+          <div class="guide-heading"><h2 id="guide-title">和它这样玩</h2><span>轻轻的，就好</span></div>
+          <div class="gesture-grid">
+            <div class="gesture"><span class="gesture-icon sage"><svg><use href="#i-drag"/></svg></span><strong>拖一拖</strong><span>搬个喜欢的位置</span></div>
+            <div class="gesture"><span class="gesture-icon peach"><svg><use href="#i-hand"/></svg></span><strong>长按它</strong><span>解锁更多小动作</span></div>
+            <div class="gesture"><span class="gesture-icon butter"><svg><use href="#i-bounce"/></svg></span><strong>轻轻甩</strong><span>看它弹来弹去</span></div>
+          </div>
+        </section>
+        <aside class="little-note pet-page"><svg><use href="#i-spark"/></svg><p>不打扰你的生活，<br>只偷偷添一点好心情。</p><span>♡</span></aside>
+      </div>
+    </main>
+    <footer><span>小小陪伴，大大可爱。</span><button id="about">离线小伙伴 · 关于</button></footer>
+  </div>
+  <nav class="bottom-nav" aria-label="主导航"><button data-nav="pet"><span>♧</span>宠物</button><button data-nav="chat"><span>♡</span>聊天</button><button data-nav="todo"><span>✓</span>待办</button><button data-nav="settings"><span>⚙</span>设置</button></nav>
+  <div class="sheet-backdrop" id="sheet" hidden>
+    <section class="sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-title" tabindex="-1">
+      <div class="sheet-handle"></div><button class="sheet-close icon-button" aria-label="关闭弹窗">×</button>
+      <span class="sheet-icon"><svg><use href="#i-paw"/></svg></span>
+      <h2 id="sheet-title">先给它一张通行证</h2>
+      <div id="sheet-content"></div>
+      <button class="primary sheet-primary" id="sheet-action"><span>去允许悬浮窗</span><span class="button-arrow"><svg><use href="#i-arrow"/></svg></span></button>
+    </section>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

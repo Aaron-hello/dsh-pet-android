@@ -1,0 +1,6 @@
+/* Touch targets and viewport only. The original video and physics CSS is retained. */
+.pet-hit { touch-action:none; -webkit-tap-highlight-color:transparent; }
+.dsh-pet-menu-item { min-height:44px; font-size:14px; }
+.dsh-pet-menu-hint { display:none !important; }
+.dsh-pet-menu-column { min-width:148px; max-width:190px; overscroll-behavior:contain; touch-action:pan-y; }
+.dsh-pet-menu { -webkit-tap-highlight-color:transparent; }
